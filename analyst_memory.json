@@ -3,11 +3,13 @@
   "entries": [
     {
       "date": "2026-07-17",
-      "skip_call": "SEED — no call yet (file created as write-path test)",
+      "skip_call": "SEED \u2014 no call yet (file created as write-path test)",
       "vol_forecast": "none",
       "trending": "none",
-      "watch": ["first real run: confirm you can UPDATE this file via the contents API and report it in the phone brief"],
-      "one_liner": "seed entry written from the trading box via deploy key"
+      "watch": [
+        "API write-path TESTED OK 2026-07-17 from local session \u2014 routine: read this file first, commit updated version last"
+      ],
+      "one_liner": "seed entry; contents-API PUT verified working with the routine PAT"
     }
   ]
 }
