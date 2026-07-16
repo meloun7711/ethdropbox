@@ -1,5 +1,5 @@
 {
- "generated_et": "2026-07-15 21:44:26",
+ "generated_et": "2026-07-15 22:03:10",
  "today": "2026-07-15",
  "schema": "evening_pack_v2",
  "bots": {
@@ -672,12 +672,12 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.3,
-  "eth_last": 1915.81,
+  "today_realized_vol_15m_pct": 0.298,
+  "eth_last": 1920.91,
   "dvol": {
-   "now": 48.9,
+   "now": 48.8,
    "lo": 48.0,
-   "hi": 56.5
+   "hi": 56.4
   },
   "dow_tomorrow": "Thursday",
   "session_close_et": "2026-07-15 20:00"
