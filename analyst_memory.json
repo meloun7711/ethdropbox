@@ -1,0 +1,13 @@
+{
+  "schema": "analyst_memory_v1",
+  "entries": [
+    {
+      "date": "2026-07-17",
+      "skip_call": "SEED — no call yet (file created as write-path test)",
+      "vol_forecast": "none",
+      "trending": "none",
+      "watch": ["first real run: confirm you can UPDATE this file via the contents API and report it in the phone brief"],
+      "one_liner": "seed entry written from the trading box via deploy key"
+    }
+  ]
+}
