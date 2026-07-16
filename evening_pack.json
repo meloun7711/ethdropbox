@@ -1,5 +1,5 @@
 {
- "generated_et": "2026-07-15 22:03:10",
+ "generated_et": "2026-07-15 22:06:47",
  "today": "2026-07-15",
  "schema": "evening_pack_v2",
  "bots": {
@@ -673,7 +673,7 @@
  },
  "market": {
   "today_realized_vol_15m_pct": 0.298,
-  "eth_last": 1920.91,
+  "eth_last": 1919.92,
   "dvol": {
    "now": 48.8,
    "lo": 48.0,
