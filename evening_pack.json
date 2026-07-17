@@ -1,5 +1,5 @@
 {
- "generated_et": "2026-07-16 18:15:03",
+ "generated_et": "2026-07-16 20:00:11",
  "today": "2026-07-16",
  "schema": "evening_pack_v2",
  "bots": {
@@ -704,15 +704,25 @@
   },
   "fadestreak": {
    "today": {
-    "n": 0,
+    "n": 1,
     "wins": 0,
     "win_pct": 0,
-    "gross": 0,
-    "fees": 0,
-    "net": 0,
-    "avg_entry": 0
+    "gross": -19.78,
+    "fees": 0.75,
+    "net": -20.53,
+    "avg_entry": 46.0
    },
-   "losses": [],
+   "losses": [
+    {
+     "time": "19:16",
+     "ticker": "KXETH15M-26JUL161930-30",
+     "side": "yes",
+     "entry": 46.0,
+     "net": -20.53,
+     "pers8": 3,
+     "code": "CHEAP"
+    }
+   ],
    "history": [
     {
      "n": 5,
@@ -754,17 +764,31 @@
       "AGAINST": 3
      },
      "cum_net": -106.2
+    },
+    {
+     "n": 1,
+     "wins": 0,
+     "win_pct": 0,
+     "gross": -19.78,
+     "fees": 0.75,
+     "net": -20.53,
+     "avg_entry": 46.0,
+     "date": "2026-07-16",
+     "mistake_mix": {
+      "CHEAP": 1
+     },
+     "cum_net": -126.73
     }
    ],
-   "alltime_net": -106.2,
-   "alltime_n": 9
+   "alltime_net": -126.73,
+   "alltime_n": 10
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.28,
-  "eth_last": 1878.68,
+  "today_realized_vol_15m_pct": 0.271,
+  "eth_last": 1862.8,
   "dvol": {
-   "now": 49.1,
+   "now": 49.2,
    "lo": 48.0,
    "hi": 55.1
   },
@@ -780,8 +804,8 @@
    "noise_floor_day_p90": 41
   },
   "fadestreak": {
-   "total_settles": 9,
-   "net": -106.2,
+   "total_settles": 10,
+   "net": -126.73,
    "target_n": 100
   },
   "loss_rules_validation": {
@@ -844,7 +868,7 @@
   },
   {
    "date": "2026-07-16",
-   "net": 89.35
+   "net": 68.82
   }
  ],
  "note": "pnl already NET of fees. loss codes: AGAINST/WITHDR/CHEAP/RICH/PIN/CLUSTER/NONE. history=14d w/ cum_net; experiments track A/B progress vs verdict thresholds."
