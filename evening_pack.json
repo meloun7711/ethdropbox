@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-07-21 20:19:19",
+ "generated_et": "2026-07-21 21:00:16",
  "today": "2026-07-21",
  "schema": "evening_pack_v3",
  "publish_every_hours": 5,
  "window_48h": {
-  "from_et": "2026-07-19 20:19",
-  "to_et": "2026-07-21 20:19"
+  "from_et": "2026-07-19 21:00",
+  "to_et": "2026-07-21 21:00"
  },
  "bots": {
   "dvol": {
@@ -1069,8 +1069,8 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.178,
-  "eth_last": 1935.51,
+  "today_realized_vol_15m_pct": 0.175,
+  "eth_last": 1939.29,
   "dvol": {
    "now": 51.0,
    "lo": 48.0,
