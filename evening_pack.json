@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-07-25 16:00:10",
+ "generated_et": "2026-07-25 20:00:10",
  "today": "2026-07-25",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-07-23 16:00",
-  "to_et": "2026-07-25 16:00"
+  "from_et": "2026-07-23 20:00",
+  "to_et": "2026-07-25 20:00"
  },
  "bots": {
   "dvol": {
@@ -1146,15 +1146,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.079,
-  "eth_last": 1873.06,
+  "today_realized_vol_15m_pct": 0.075,
+  "eth_last": 1873.05,
   "dvol": {
-   "now": 51.4,
+   "now": 51.5,
    "lo": 48.0,
    "hi": 51.9
   },
   "funding": {
-   "funding_8h": 1.4e-05,
+   "funding_8h": 3e-06,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
