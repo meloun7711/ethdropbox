@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-05 20:00:11",
+ "generated_et": "2026-08-05 20:47:26",
  "today": "2026-08-05",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-03 20:00",
-  "to_et": "2026-08-05 20:00"
+  "from_et": "2026-08-03 20:47",
+  "to_et": "2026-08-05 20:47"
  },
  "bots": {
   "dvol": {
@@ -2172,16 +2172,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.216,
-  "eth_last": 1907.29,
+  "today_realized_vol_15m_pct": 0.212,
+  "eth_last": 1907.09,
   "dvol": {
    "now": 48.0,
    "lo": 47.7,
    "hi": 53.3
   },
   "funding": {
-   "funding_8h": 0.00019,
-   "current_funding": 0.000148,
+   "funding_8h": 0.000205,
+   "current_funding": 0.000164,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Thursday",
@@ -2201,26 +2201,26 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-05 20:00:10",
+   "updated_et": "2026-08-05 20:47:25",
    "instance": "live",
-   "eth_price": 1908.18,
+   "eth_price": 1907.19,
    "dvol": 48.0,
    "vol_regime": "NORMAL",
-   "balance": 394.13,
+   "balance": 366.48,
    "open_positions": 0,
    "n_trades": 16,
-   "momentum_60s": 0.0792,
+   "momentum_60s": 0.0052,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": null,
-   "model_side": null,
-   "model_p_yes": null,
-   "signal_secs_left": null,
-   "signal_tradeable": null,
-   "signal_move_pct": null,
-   "signal_ticker": null,
+   "model_conf": 54.2,
+   "model_side": "no",
+   "model_p_yes": 45.8,
+   "signal_secs_left": 754,
+   "signal_tradeable": false,
+   "signal_move_pct": -0.03,
+   "signal_ticker": "KXETH15M-26AUG052100-00",
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -2230,9 +2230,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 2.2,
+   "conf_std": 2.8,
    "conf_flips": 0,
-   "conf_range": 7.0,
+   "conf_range": 10.8,
    "conf_warn": false
   }
  },
@@ -2242,7 +2242,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-06",
   "reason": "no scheduled event",
-  "age_hours": 3.93,
+  "age_hours": 0.0,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -2257,8 +2257,8 @@
   "calendar_go": false,
   "routine_veto": false,
   "veto_reason": null,
-  "veto_channel": "http 404",
-  "veto_age_hours": null,
+  "veto_channel": "stale (233131.8h > 12.0h)",
+  "veto_age_hours": 233131.79,
   "upcoming_go_days": [
    {
     "date": "2026-08-07",
