@@ -1,0 +1,7 @@
+{
+  "for_date": "2000-01-01",
+  "veto": false,
+  "veto_reason": null,
+  "generated_at_et": "2000-01-01T00:00:00-05:00",
+  "note": "connectivity test - past date, box ignores it"
+}
