@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-06 16:00:10",
+ "generated_et": "2026-08-06 20:00:10",
  "today": "2026-08-06",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-04 16:00",
-  "to_et": "2026-08-06 16:00"
+  "from_et": "2026-08-04 20:00",
+  "to_et": "2026-08-06 20:00"
  },
  "bots": {
   "dvol": {
@@ -1600,11 +1600,9 @@
      "avg_entry": 64.3,
      "date": "2026-07-29",
      "mistake_mix": {
-      "NONE": 2,
+      "NONE": 4,
       "CHEAP": 1,
-      "PIN": 1,
-      "CLUSTER": 1,
-      "AGAINST": 1
+      "CLUSTER": 1
      },
      "cum_net": -186.92
     },
@@ -1898,15 +1896,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.169,
-  "eth_last": 1908.61,
+  "today_realized_vol_15m_pct": 0.156,
+  "eth_last": 1902.42,
   "dvol": {
-   "now": 47.9,
+   "now": 48.0,
    "lo": 47.7,
    "hi": 53.3
   },
   "funding": {
-   "funding_8h": 9e-06,
+   "funding_8h": 1e-06,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1927,18 +1925,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-06 16:00:08",
+   "updated_et": "2026-08-06 20:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 1908.43,
-   "dvol": 47.9,
+   "eth_price": 1901.91,
+   "dvol": 48.0,
    "vol_regime": "NORMAL",
-   "balance": 366.48,
+   "balance": 302.44,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0042,
+   "momentum_60s": -0.0126,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1959,10 +1957,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 6.8,
+   "conf_std": 0.8,
    "conf_flips": 0,
-   "conf_range": 18.8,
-   "conf_warn": true
+   "conf_range": 2.8,
+   "conf_warn": false
   }
  },
  "event_gate": {
@@ -1971,7 +1969,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-06",
   "reason": "no scheduled event",
-  "age_hours": 18.46,
+  "age_hours": 22.46,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
