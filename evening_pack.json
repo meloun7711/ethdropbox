@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-08 12:00:10",
+ "generated_et": "2026-08-08 16:00:14",
  "today": "2026-08-08",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-06 12:00",
-  "to_et": "2026-08-08 12:00"
+  "from_et": "2026-08-06 16:00",
+  "to_et": "2026-08-08 16:00"
  },
  "bots": {
   "dvol": {
@@ -20,13 +20,13 @@
    },
    "losses": [],
    "last48h": {
-    "n": 12,
-    "wins": 8,
-    "win_pct": 67,
-    "gross": 6.86,
-    "fees": 5.93,
-    "net": 0.93,
-    "avg_entry": 64.4
+    "n": 10,
+    "wins": 6,
+    "win_pct": 60,
+    "gross": -16.46,
+    "fees": 4.9,
+    "net": -21.36,
+    "avg_entry": 64.7
    },
    "losses_48h": [
     {
@@ -800,13 +800,13 @@
    },
    "losses": [],
    "last48h": {
-    "n": 11,
-    "wins": 8,
-    "win_pct": 73,
-    "gross": 28.43,
-    "fees": 5.48,
-    "net": 22.95,
-    "avg_entry": 64.2
+    "n": 9,
+    "wins": 6,
+    "win_pct": 67,
+    "gross": 5.11,
+    "fees": 4.45,
+    "net": 0.66,
+    "avg_entry": 64.4
    },
    "losses_48h": [
     {
@@ -1385,16 +1385,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.054,
-  "eth_last": 1921.24,
+  "today_realized_vol_15m_pct": 0.053,
+  "eth_last": 1918.75,
   "dvol": {
-   "now": 47.9,
+   "now": 48.0,
    "lo": 47.2,
    "hi": 53.3
   },
   "funding": {
-   "funding_8h": 8e-06,
-   "current_funding": 8.8e-05,
+   "funding_8h": 3.1e-05,
+   "current_funding": 7.8e-05,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Sunday",
@@ -1414,18 +1414,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-08 12:00:10",
+   "updated_et": "2026-08-08 16:00:13",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 1921.24,
-   "dvol": 47.9,
+   "eth_price": 1918.77,
+   "dvol": 48.0,
    "vol_regime": "NORMAL",
    "balance": 200.81,
    "open_positions": 0,
    "n_trades": 14,
-   "momentum_60s": -0.0317,
+   "momentum_60s": -0.0208,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1446,9 +1446,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 2.3,
+   "conf_std": 1.5,
    "conf_flips": 0,
-   "conf_range": 8.0,
+   "conf_range": 5.0,
    "conf_warn": false
   }
  },
@@ -1458,7 +1458,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-08",
   "reason": "no scheduled event",
-  "age_hours": 12.9,
+  "age_hours": 16.9,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1509,38 +1509,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol_drift",
-   "time": "08-06 12:00",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "08-06 12:00",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "08-06 12:15",
-   "side": "yes",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
-  {
-   "bot": "dvol_drift",
-   "time": "08-06 12:15",
-   "side": "yes",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
   {
    "bot": "dvol_drift",
    "time": "08-07 08:15",
