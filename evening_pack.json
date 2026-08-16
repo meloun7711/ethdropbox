@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-16 12:00:10",
+ "generated_et": "2026-08-16 16:00:11",
  "today": "2026-08-16",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-14 12:00",
-  "to_et": "2026-08-16 12:00"
+  "from_et": "2026-08-14 16:00",
+  "to_et": "2026-08-16 16:00"
  },
  "bots": {
   "dvol": {
@@ -996,10 +996,10 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.035,
-  "eth_last": 1882.01,
+  "today_realized_vol_15m_pct": 0.05,
+  "eth_last": 1884.22,
   "dvol": {
-   "now": 47.6,
+   "now": 47.5,
    "lo": 47.0,
    "hi": 50.4
   },
@@ -1025,18 +1025,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-16 12:00:09",
+   "updated_et": "2026-08-16 16:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 1882.33,
-   "dvol": 47.6,
+   "eth_price": 1884.22,
+   "dvol": 47.5,
    "vol_regime": "NORMAL",
    "balance": 0.47,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0042,
+   "momentum_60s": 0.0021,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1057,10 +1057,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 4.1,
-   "conf_flips": 0,
-   "conf_range": 12.7,
-   "conf_warn": true
+   "conf_std": 1.4,
+   "conf_flips": 1,
+   "conf_range": 5.3,
+   "conf_warn": false
   }
  },
  "event_gate": {
@@ -1069,7 +1069,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-16",
   "reason": "no scheduled event",
-  "age_hours": 15.33,
+  "age_hours": 19.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
