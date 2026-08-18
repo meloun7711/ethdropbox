@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-17 16:00:11",
+ "generated_et": "2026-08-17 20:00:11",
  "today": "2026-08-17",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-15 16:00",
-  "to_et": "2026-08-17 16:00"
+  "from_et": "2026-08-15 20:00",
+  "to_et": "2026-08-17 20:00"
  },
  "bots": {
   "dvol": {
@@ -353,7 +353,7 @@
      "avg_entry": 66.0,
      "date": "2026-08-09",
      "mistake_mix": {
-      "AGAINST": 1
+      "NONE": 1
      },
      "cum_net": -135.99
     },
@@ -1160,15 +1160,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.143,
-  "eth_last": 1905.63,
+  "today_realized_vol_15m_pct": 0.142,
+  "eth_last": 1912.54,
   "dvol": {
-   "now": 46.2,
+   "now": 46.3,
    "lo": 44.9,
    "hi": 50.0
   },
   "funding": {
-   "funding_8h": 3.5e-05,
+   "funding_8h": 3.6e-05,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1189,18 +1189,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-17 16:00:11",
+   "updated_et": "2026-08-17 20:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 1905.58,
-   "dvol": 46.2,
+   "eth_price": 1912.54,
+   "dvol": 46.3,
    "vol_regime": "NORMAL",
    "balance": 0.47,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0493,
+   "momentum_60s": 0.0293,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1221,10 +1221,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 2.8,
+   "conf_std": 4.4,
    "conf_flips": 0,
-   "conf_range": 10.1,
-   "conf_warn": false
+   "conf_range": 15.2,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1233,7 +1233,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-17",
   "reason": "no scheduled event",
-  "age_hours": 19.33,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
