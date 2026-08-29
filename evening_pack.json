@@ -1,97 +1,24 @@
 {
- "generated_et": "2026-08-28 20:00:23",
- "today": "2026-08-28",
+ "generated_et": "2026-08-29 08:00:23",
+ "today": "2026-08-29",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-26 20:00",
-  "to_et": "2026-08-28 20:00"
+  "from_et": "2026-08-27 08:00",
+  "to_et": "2026-08-29 08:00"
  },
  "bots": {
   "dvol": {
    "today": {
-    "n": 15,
-    "wins": 7,
-    "win_pct": 47,
-    "gross": -72.57,
-    "fees": 7.74,
-    "net": -80.31,
-    "avg_entry": 63.0
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "09:30",
-     "ticker": "KXETH15M-26AUG280945-45",
-     "side": "yes",
-     "entry": 66.0,
-     "net": -20.28,
-     "pers8": 3,
-     "code": "PIN"
-    },
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26AUG281000-00",
-     "side": "no",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 2,
-     "code": "CLUSTER"
-    },
-    {
-     "time": "10:15",
-     "ticker": "KXETH15M-26AUG281030-30",
-     "side": "no",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "10:46",
-     "ticker": "KXETH15M-26AUG281100-00",
-     "side": "no",
-     "entry": 64.0,
-     "net": -20.34,
-     "pers8": 5,
-     "code": "AGAINST"
-    },
-    {
-     "time": "11:00",
-     "ticker": "KXETH15M-26AUG281115-15",
-     "side": "yes",
-     "entry": 68.0,
-     "net": -20.17,
-     "pers8": 5,
-     "code": "WITHDR"
-    },
-    {
-     "time": "13:01",
-     "ticker": "KXETH15M-26AUG281315-15",
-     "side": "no",
-     "entry": 70.0,
-     "net": -20.02,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "13:17",
-     "ticker": "KXETH15M-26AUG281330-30",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "14:46",
-     "ticker": "KXETH15M-26AUG281500-00",
-     "side": "no",
-     "entry": 60.0,
-     "net": -20.36,
-     "pers8": 3,
-     "code": "NONE"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 24,
     "wins": 11,
@@ -305,8 +232,8 @@
      "avg_entry": 63.0,
      "date": "2026-08-21",
      "mistake_mix": {
-      "NONE": 2,
-      "WITHDR": 4,
+      "NONE": 3,
+      "WITHDR": 3,
       "AGAINST": 8
      },
      "cum_net": -71.2
@@ -429,61 +356,15 @@
   },
   "dvol2": {
    "today": {
-    "n": 9,
-    "wins": 4,
-    "win_pct": 44,
-    "gross": -55.48,
-    "fees": 4.61,
-    "net": -60.09,
-    "avg_entry": 63.2
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26AUG281000-00",
-     "side": "no",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 2,
-     "code": "NONE"
-    },
-    {
-     "time": "10:15",
-     "ticker": "KXETH15M-26AUG281030-30",
-     "side": "no",
-     "entry": 54.0,
-     "net": -20.63,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "13:01",
-     "ticker": "KXETH15M-26AUG281315-15",
-     "side": "no",
-     "entry": 69.0,
-     "net": -19.74,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "13:17",
-     "ticker": "KXETH15M-26AUG281330-30",
-     "side": "yes",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "14:45",
-     "ticker": "KXETH15M-26AUG281500-00",
-     "side": "no",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 3,
-     "code": "NONE"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 9,
     "wins": 4,
@@ -876,52 +757,15 @@
   },
   "dvol63": {
    "today": {
-    "n": 9,
-    "wins": 5,
-    "win_pct": 56,
-    "gross": -26.57,
-    "fees": 4.39,
-    "net": -30.96,
-    "avg_entry": 61.2
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26AUG281000-00",
-     "side": "no",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 2,
-     "code": "NONE"
-    },
-    {
-     "time": "10:15",
-     "ticker": "KXETH15M-26AUG281030-30",
-     "side": "no",
-     "entry": 57.0,
-     "net": -20.56,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "13:17",
-     "ticker": "KXETH15M-26AUG281330-30",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "14:45",
-     "ticker": "KXETH15M-26AUG281500-00",
-     "side": "no",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 10,
     "wins": 5,
@@ -1063,9 +907,9 @@
      "date": "2026-08-21",
      "mistake_mix": {
       "CHEAP": 1,
-      "NONE": 2,
+      "NONE": 3,
       "CLUSTER": 1,
-      "WITHDR": 3,
+      "WITHDR": 2,
       "AGAINST": 6
      },
      "cum_net": -61.56
@@ -1178,43 +1022,15 @@
   },
   "dvol6358": {
    "today": {
-    "n": 7,
-    "wins": 4,
-    "win_pct": 57,
-    "gross": -21.05,
-    "fees": 3.18,
-    "net": -24.23,
-    "avg_entry": 62.0
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26AUG281000-00",
-     "side": "no",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 2,
-     "code": "NONE"
-    },
-    {
-     "time": "10:15",
-     "ticker": "KXETH15M-26AUG281030-30",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "13:17",
-     "ticker": "KXETH15M-26AUG281330-30",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "WITHDR"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 13,
     "wins": 7,
@@ -1351,8 +1167,8 @@
      "avg_entry": 61.3,
      "date": "2026-08-21",
      "mistake_mix": {
-      "NONE": 2,
-      "WITHDR": 2,
+      "NONE": 3,
+      "WITHDR": 1,
       "AGAINST": 6
      },
      "cum_net": -9.34
@@ -1488,20 +1304,20 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.3,
-  "eth_last": 2442.73,
+  "today_realized_vol_15m_pct": 0.082,
+  "eth_last": 2435.84,
   "dvol": {
-   "now": 50.9,
+   "now": 50.0,
    "lo": 44.9,
    "hi": 60.5
   },
   "funding": {
-   "funding_8h": 2.4e-05,
-   "current_funding": 0.0,
+   "funding_8h": 2e-06,
+   "current_funding": 0.000107,
    "source": "deribit ETH-PERPETUAL ticker"
   },
-  "dow_tomorrow": "Saturday",
-  "session_close_et": "2026-08-28 20:00"
+  "dow_tomorrow": "Sunday",
+  "session_close_et": "2026-08-29 20:00"
  },
  "live": {
   "bot": "dvol2live",
@@ -1517,29 +1333,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-28 20:00:21",
+   "updated_et": "2026-08-29 08:00:22",
    "instance": "live",
    "event_gate": "NO_GO",
-   "event_gate_why": "NO-GO \u2014 events present but none high-tier \u2014 second: BLS preliminary annual benchmark revision, establishment survey",
+   "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2442.64,
-   "dvol": 50.9,
+   "eth_price": 2435.91,
+   "dvol": 50.0,
    "vol_regime": "NORMAL",
    "balance": 1.54,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0016,
+   "momentum_60s": 0.0082,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": 51.2,
-   "model_side": "no",
-   "model_p_yes": 48.8,
-   "signal_secs_left": 878,
-   "signal_tradeable": false,
-   "signal_move_pct": -0.01,
-   "signal_ticker": "KXETH15M-26AUG282015-15",
+   "model_conf": null,
+   "model_side": null,
+   "model_p_yes": null,
+   "signal_secs_left": null,
+   "signal_tradeable": null,
+   "signal_move_pct": null,
+   "signal_ticker": null,
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1549,9 +1365,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.9,
+   "conf_std": 1.5,
    "conf_flips": 0,
-   "conf_range": 2.6,
+   "conf_range": 5.9,
    "conf_warn": false
   }
  },
@@ -1559,9 +1375,9 @@
   "file": "/home/ubuntu/event_gate.json",
   "present": true,
   "decision": "NO_GO",
-  "for_date": "2026-08-28",
-  "reason": "events present but none high-tier \u2014 second: BLS preliminary annual benchmark revision, establishment survey",
-  "age_hours": 23.34,
+  "for_date": "2026-08-29",
+  "reason": "no scheduled event",
+  "age_hours": 11.34,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1576,8 +1392,8 @@
   "calendar_go": false,
   "routine_veto": false,
   "veto_reason": null,
-  "veto_channel": "stale (233659.7h > 12.0h)",
-  "veto_age_hours": 233659.67,
+  "veto_channel": "stale (233683.7h > 12.0h)",
+  "veto_age_hours": 233683.67,
   "upcoming_go_days": [
    {
     "date": "2026-09-04",
