@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-29 20:00:23",
- "today": "2026-08-29",
+ "generated_et": "2026-08-30 08:00:10",
+ "today": "2026-08-30",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-27 20:00",
-  "to_et": "2026-08-29 20:00"
+  "from_et": "2026-08-28 08:00",
+  "to_et": "2026-08-30 08:00"
  },
  "bots": {
   "dvol": {
@@ -104,20 +104,6 @@
    ],
    "history": [
     {
-     "n": 2,
-     "wins": 1,
-     "win_pct": 50,
-     "gross": -10.84,
-     "fees": 0.96,
-     "net": -11.8,
-     "avg_entry": 65.0,
-     "date": "2026-08-16",
-     "mistake_mix": {
-      "NONE": 1
-     },
-     "cum_net": -11.8
-    },
-    {
      "n": 5,
      "wins": 4,
      "win_pct": 80,
@@ -129,7 +115,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 11.88
+     "cum_net": 23.68
     },
     {
      "n": 5,
@@ -143,7 +129,7 @@
      "mistake_mix": {
       "NONE": 2
      },
-     "cum_net": 2.84
+     "cum_net": 14.64
     },
     {
      "n": 37,
@@ -159,7 +145,7 @@
       "CHEAP": 3,
       "CLUSTER": 1
      },
-     "cum_net": 92.47
+     "cum_net": 104.27
     },
     {
      "n": 29,
@@ -175,7 +161,7 @@
       "CHEAP": 5,
       "CLUSTER": 3
      },
-     "cum_net": -86.57
+     "cum_net": -74.77
     },
     {
      "n": 41,
@@ -191,7 +177,7 @@
       "CLUSTER": 2,
       "CHEAP": 2
      },
-     "cum_net": -71.2
+     "cum_net": -59.4
     },
     {
      "n": 5,
@@ -206,7 +192,7 @@
       "PIN": 1,
       "WITHDR": 1
      },
-     "cum_net": -79.18
+     "cum_net": -67.38
     },
     {
      "n": 12,
@@ -222,7 +208,7 @@
       "AGAINST": 1,
       "NONE": 1
      },
-     "cum_net": -103.87
+     "cum_net": -92.07
     },
     {
      "n": 21,
@@ -238,7 +224,7 @@
       "PIN": 1,
       "NONE": 1
      },
-     "cum_net": -27.0
+     "cum_net": -15.2
     },
     {
      "n": 13,
@@ -253,7 +239,7 @@
       "AGAINST": 4,
       "NONE": 1
      },
-     "cum_net": -43.76
+     "cum_net": -31.96
     },
     {
      "n": 10,
@@ -269,7 +255,7 @@
       "CLUSTER": 1,
       "WITHDR": 1
      },
-     "cum_net": -32.17
+     "cum_net": -20.37
     },
     {
      "n": 9,
@@ -284,7 +270,7 @@
       "AGAINST": 4,
       "NONE": 1
      },
-     "cum_net": -93.38
+     "cum_net": -81.58
     },
     {
      "n": 15,
@@ -303,7 +289,7 @@
       "WITHDR": 2,
       "NONE": 2
      },
-     "cum_net": -173.69
+     "cum_net": -161.89
     }
    ],
    "alltime_net": -91.34,
@@ -462,7 +448,7 @@
      "avg_entry": 63.8,
      "date": "2026-08-22",
      "mistake_mix": {
-      "WITHDR": 1
+      "PIN": 1
      },
      "cum_net": 68.46
     },
@@ -770,20 +756,6 @@
    ],
    "history": [
     {
-     "n": 1,
-     "wins": 0,
-     "win_pct": 0,
-     "gross": -19.52,
-     "fees": 0.54,
-     "net": -20.06,
-     "avg_entry": 61.0,
-     "date": "2026-08-16",
-     "mistake_mix": {
-      "NONE": 1
-     },
-     "cum_net": -20.06
-    },
-    {
      "n": 4,
      "wins": 3,
      "win_pct": 75,
@@ -795,7 +767,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": -6.26
+     "cum_net": 13.8
     },
     {
      "n": 4,
@@ -809,7 +781,7 @@
      "mistake_mix": {
       "NONE": 2
      },
-     "cum_net": -24.08
+     "cum_net": -4.02
     },
     {
      "n": 27,
@@ -824,7 +796,7 @@
       "NONE": 5,
       "CHEAP": 3
      },
-     "cum_net": 51.34
+     "cum_net": 71.4
     },
     {
      "n": 21,
@@ -840,7 +812,7 @@
       "CHEAP": 4,
       "CLUSTER": 1
      },
-     "cum_net": -42.33
+     "cum_net": -22.27
     },
     {
      "n": 33,
@@ -856,7 +828,7 @@
       "NONE": 9,
       "CLUSTER": 1
      },
-     "cum_net": -61.56
+     "cum_net": -41.5
     },
     {
      "n": 2,
@@ -868,7 +840,7 @@
      "avg_entry": 63.0,
      "date": "2026-08-22",
      "mistake_mix": {},
-     "cum_net": -41.41
+     "cum_net": -21.35
     },
     {
      "n": 5,
@@ -882,7 +854,7 @@
      "mistake_mix": {
       "WITHDR": 2
      },
-     "cum_net": -47.5
+     "cum_net": -27.44
     },
     {
      "n": 14,
@@ -897,7 +869,7 @@
       "AGAINST": 2,
       "CHEAP": 1
      },
-     "cum_net": 0.24
+     "cum_net": 20.3
     },
     {
      "n": 8,
@@ -911,7 +883,7 @@
      "mistake_mix": {
       "AGAINST": 3
      },
-     "cum_net": -5.02
+     "cum_net": 15.04
     },
     {
      "n": 6,
@@ -928,7 +900,7 @@
       "WITHDR": 1,
       "AGAINST": 1
      },
-     "cum_net": -88.14
+     "cum_net": -68.08
     },
     {
      "n": 1,
@@ -942,7 +914,7 @@
      "mistake_mix": {
       "AGAINST": 1
      },
-     "cum_net": -108.5
+     "cum_net": -88.44
     },
     {
      "n": 9,
@@ -958,7 +930,7 @@
       "CHEAP": 1,
       "WITHDR": 1
      },
-     "cum_net": -139.46
+     "cum_net": -119.4
     }
    ],
    "alltime_net": 370.62,
@@ -1220,20 +1192,20 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.091,
-  "eth_last": 2457.3,
+  "today_realized_vol_15m_pct": 0.069,
+  "eth_last": 2460.28,
   "dvol": {
-   "now": 51.1,
+   "now": 51.2,
    "lo": 44.9,
    "hi": 60.5
   },
   "funding": {
-   "funding_8h": 1.1e-05,
+   "funding_8h": 3.4e-05,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
-  "dow_tomorrow": "Sunday",
-  "session_close_et": "2026-08-29 20:00"
+  "dow_tomorrow": "Monday",
+  "session_close_et": "2026-08-30 20:00"
  },
  "live": {
   "bot": "dvol2live",
@@ -1249,18 +1221,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-29 20:00:23",
+   "updated_et": "2026-08-30 08:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2457.3,
-   "dvol": 51.1,
+   "eth_price": 2460.28,
+   "dvol": 51.2,
    "vol_regime": "NORMAL",
    "balance": 0.48,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0,
+   "momentum_60s": 0.0313,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1281,9 +1253,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 1.2,
+   "conf_std": 3.2,
    "conf_flips": 0,
-   "conf_range": 4.4,
+   "conf_range": 9.7,
    "conf_warn": false
   }
  },
@@ -1291,9 +1263,9 @@
   "file": "/home/ubuntu/event_gate.json",
   "present": true,
   "decision": "NO_GO",
-  "for_date": "2026-08-29",
+  "for_date": "2026-08-30",
   "reason": "no scheduled event",
-  "age_hours": 23.34,
+  "age_hours": 11.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1308,8 +1280,8 @@
   "calendar_go": false,
   "routine_veto": false,
   "veto_reason": null,
-  "veto_channel": "stale (233683.7h > 12.0h)",
-  "veto_age_hours": 233683.67,
+  "veto_channel": "stale (233707.7h > 12.0h)",
+  "veto_age_hours": 233707.67,
   "upcoming_go_days": [
    {
     "date": "2026-09-04",
@@ -1559,10 +1531,6 @@
   }
  },
  "fleet_daily": [
-  {
-   "date": "2026-08-16",
-   "net": -11.8
-  },
   {
    "date": "2026-08-17",
    "net": 33.3
