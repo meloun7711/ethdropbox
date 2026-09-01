@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-08-31 16:00:23",
+ "generated_et": "2026-08-31 20:00:23",
  "today": "2026-08-31",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-08-29 16:00",
-  "to_et": "2026-08-31 16:00"
+  "from_et": "2026-08-29 20:00",
+  "to_et": "2026-08-31 20:00"
  },
  "bots": {
   "dvol": {
@@ -541,8 +541,7 @@
      "mistake_mix": {
       "CHEAP": 1,
       "NONE": 3,
-      "CLUSTER": 1,
-      "WITHDR": 1
+      "CLUSTER": 2
      },
      "cum_net": -2.18
     },
@@ -1513,15 +1512,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.225,
-  "eth_last": 2480.72,
+  "today_realized_vol_15m_pct": 0.209,
+  "eth_last": 2465.97,
   "dvol": {
    "now": 51.3,
    "lo": 45.4,
    "hi": 60.5
   },
   "funding": {
-   "funding_8h": 6.8e-05,
+   "funding_8h": 1.8e-05,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1542,29 +1541,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-08-31 16:00:22",
+   "updated_et": "2026-08-31 20:00:23",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2481.33,
+   "eth_price": 2465.78,
    "dvol": 51.3,
    "vol_regime": "NORMAL",
    "balance": 0.48,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0785,
+   "momentum_60s": -0.058,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": 68.6,
-   "model_side": "no",
-   "model_p_yes": 31.4,
-   "signal_secs_left": 877,
-   "signal_tradeable": false,
-   "signal_move_pct": -0.065,
-   "signal_ticker": "KXETH15M-26AUG311615-15",
+   "model_conf": null,
+   "model_side": null,
+   "model_p_yes": null,
+   "signal_secs_left": null,
+   "signal_tradeable": null,
+   "signal_move_pct": null,
+   "signal_ticker": null,
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1574,10 +1573,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.0,
-   "conf_flips": 0,
-   "conf_range": 0.0,
-   "conf_warn": false
+   "conf_std": 1.8,
+   "conf_flips": 5,
+   "conf_range": 7.4,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1586,7 +1585,7 @@
   "decision": "NO_GO",
   "for_date": "2026-08-31",
   "reason": "no scheduled event",
-  "age_hours": 19.34,
+  "age_hours": 23.34,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
