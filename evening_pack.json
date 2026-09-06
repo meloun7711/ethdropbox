@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-09-06 12:00:23",
+ "generated_et": "2026-09-06 16:00:12",
  "today": "2026-09-06",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-09-04 12:00",
-  "to_et": "2026-09-06 12:00"
+  "from_et": "2026-09-04 16:00",
+  "to_et": "2026-09-06 16:00"
  },
  "bots": {
   "dvol": {
@@ -722,13 +722,13 @@
    },
    "losses": [],
    "last48h": {
-    "n": 3,
-    "wins": 3,
+    "n": 2,
+    "wins": 2,
     "win_pct": 100,
-    "gross": 35.77,
-    "fees": 1.56,
-    "net": 34.21,
-    "avg_entry": 62.0
+    "gross": 24.3,
+    "fees": 1.05,
+    "net": 23.25,
+    "avg_entry": 61.5
    },
    "losses_48h": [],
    "history": [
@@ -952,16 +952,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.16,
-  "eth_last": 2479.88,
+  "today_realized_vol_15m_pct": 0.146,
+  "eth_last": 2490.49,
   "dvol": {
-   "now": 52.5,
+   "now": 53.0,
    "lo": 49.8,
    "hi": 60.5
   },
   "funding": {
-   "funding_8h": 3e-05,
-   "current_funding": 0.0,
+   "funding_8h": 2e-05,
+   "current_funding": 7.9e-05,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Monday",
@@ -981,18 +981,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-09-06 12:00:23",
+   "updated_et": "2026-09-06 16:00:11",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2479.66,
-   "dvol": 52.5,
+   "eth_price": 2490.64,
+   "dvol": 53.0,
    "vol_regime": "NORMAL",
    "balance": 0.48,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0181,
+   "momentum_60s": 0.0285,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1013,10 +1013,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 2.4,
-   "conf_flips": 0,
-   "conf_range": 7.5,
-   "conf_warn": false
+   "conf_std": 4.2,
+   "conf_flips": 3,
+   "conf_range": 12.8,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1025,7 +1025,7 @@
   "decision": "NO_GO",
   "for_date": "2026-09-06",
   "reason": "no scheduled event",
-  "age_hours": 15.34,
+  "age_hours": 19.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
