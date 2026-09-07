@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-09-07 08:00:24",
+ "generated_et": "2026-09-07 12:00:23",
  "today": "2026-09-07",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-09-05 08:00",
-  "to_et": "2026-09-07 08:00"
+  "from_et": "2026-09-05 12:00",
+  "to_et": "2026-09-07 12:00"
  },
  "bots": {
   "dvol": {
@@ -129,9 +129,9 @@
      "avg_entry": 63.6,
      "date": "2026-08-30",
      "mistake_mix": {
-      "AGAINST": 4,
-      "WITHDR": 1,
-      "NONE": 2
+      "NONE": 4,
+      "PIN": 1,
+      "AGAINST": 2
      },
      "cum_net": -132.98
     },
@@ -341,9 +341,8 @@
      "avg_entry": 63.6,
      "date": "2026-08-30",
      "mistake_mix": {
-      "AGAINST": 1,
-      "WITHDR": 1,
-      "NONE": 1,
+      "NONE": 2,
+      "PIN": 1,
       "CLUSTER": 1
      },
      "cum_net": -123.09
@@ -604,8 +603,8 @@
      "avg_entry": 61.4,
      "date": "2026-08-30",
      "mistake_mix": {
-      "AGAINST": 3,
-      "NONE": 1
+      "NONE": 2,
+      "AGAINST": 2
      },
      "cum_net": -113.67
     },
@@ -818,7 +817,8 @@
      "avg_entry": 61.8,
      "date": "2026-08-30",
      "mistake_mix": {
-      "AGAINST": 3
+      "NONE": 1,
+      "AGAINST": 2
      },
      "cum_net": -26.54
     },
@@ -958,16 +958,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.16,
-  "eth_last": 2489.76,
+  "today_realized_vol_15m_pct": 0.2,
+  "eth_last": 2471.64,
   "dvol": {
-   "now": 52.4,
+   "now": 52.7,
    "lo": 49.8,
    "hi": 59.9
   },
   "funding": {
-   "funding_8h": 5e-06,
-   "current_funding": 0.0,
+   "funding_8h": 7e-06,
+   "current_funding": 2.1e-05,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Tuesday",
@@ -987,29 +987,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-09-07 08:00:22",
+   "updated_et": "2026-09-07 12:00:22",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 events present but none high-tier \u2014 holiday: Labor Day - NYSE FULLY CLOSED",
    "event_gate_enabled": true,
-   "eth_price": 2489.58,
-   "dvol": 52.4,
+   "eth_price": 2471.65,
+   "dvol": 52.7,
    "vol_regime": "NORMAL",
    "balance": 0.48,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0108,
+   "momentum_60s": 0.0368,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": 51.5,
-   "model_side": "no",
-   "model_p_yes": 48.5,
-   "signal_secs_left": 877,
-   "signal_tradeable": false,
-   "signal_move_pct": 0.0,
-   "signal_ticker": "KXETH15M-26SEP070815-15",
+   "model_conf": null,
+   "model_side": null,
+   "model_p_yes": null,
+   "signal_secs_left": null,
+   "signal_tradeable": null,
+   "signal_move_pct": null,
+   "signal_ticker": null,
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1019,10 +1019,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.0,
-   "conf_flips": 0,
-   "conf_range": 0.0,
-   "conf_warn": false
+   "conf_std": 10.3,
+   "conf_flips": 1,
+   "conf_range": 44.4,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1031,7 +1031,7 @@
   "decision": "NO_GO",
   "for_date": "2026-09-07",
   "reason": "events present but none high-tier \u2014 holiday: Labor Day - NYSE FULLY CLOSED",
-  "age_hours": 11.34,
+  "age_hours": 15.34,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
