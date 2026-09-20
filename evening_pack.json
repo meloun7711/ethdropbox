@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-09-19 16:00:23",
+ "generated_et": "2026-09-19 20:00:23",
  "today": "2026-09-19",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-09-17 16:00",
-  "to_et": "2026-09-19 16:00"
+  "from_et": "2026-09-17 20:00",
+  "to_et": "2026-09-19 20:00"
  },
  "bots": {
   "dvol": {
@@ -48,13 +48,13 @@
     }
    ],
    "last48h": {
-    "n": 40,
-    "wins": 25,
+    "n": 39,
+    "wins": 24,
     "win_pct": 62,
-    "gross": 0.84,
-    "fees": 20.43,
-    "net": -19.59,
-    "avg_entry": 63.0
+    "gross": -7.84,
+    "fees": 20.01,
+    "net": -27.85,
+    "avg_entry": 62.8
    },
    "losses_48h": [
     {
@@ -276,9 +276,8 @@
      "date": "2026-09-11",
      "mistake_mix": {
       "CHEAP": 4,
-      "NONE": 4,
-      "CLUSTER": 2,
-      "PIN": 2
+      "NONE": 5,
+      "CLUSTER": 3
      },
      "cum_net": -62.1
     },
@@ -1352,10 +1351,9 @@
      "avg_entry": 60.8,
      "date": "2026-09-11",
      "mistake_mix": {
-      "NONE": 4,
+      "NONE": 5,
       "CLUSTER": 2,
-      "CHEAP": 1,
-      "PIN": 1
+      "CHEAP": 1
      },
      "cum_net": 19.6
     },
@@ -1504,16 +1502,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.161,
-  "eth_last": 2634.05,
+  "today_realized_vol_15m_pct": 0.167,
+  "eth_last": 2628.9,
   "dvol": {
-   "now": 50.9,
+   "now": 50.8,
    "lo": 49.7,
    "hi": 57.2
   },
   "funding": {
-   "funding_8h": 6.9e-05,
-   "current_funding": 3.1e-05,
+   "funding_8h": 5.7e-05,
+   "current_funding": 2e-05,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Sunday",
@@ -1533,18 +1531,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-09-19 16:00:23",
+   "updated_et": "2026-09-19 20:00:23",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2634.34,
-   "dvol": 50.9,
+   "eth_price": 2629.48,
+   "dvol": 50.8,
    "vol_regime": "NORMAL",
    "balance": 0.4,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0516,
+   "momentum_60s": -0.095,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1565,9 +1563,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 6.7,
+   "conf_std": 5.7,
    "conf_flips": 0,
-   "conf_range": 21.6,
+   "conf_range": 28.3,
    "conf_warn": true
   }
  },
@@ -1577,7 +1575,7 @@
   "decision": "NO_GO",
   "for_date": "2026-09-19",
   "reason": "no scheduled event",
-  "age_hours": 19.34,
+  "age_hours": 23.34,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1628,14 +1626,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol",
-   "time": "09-17 18:16",
-   "side": "no",
-   "entry": 69.0,
-   "net": 8.26,
-   "code": null
-  },
   {
    "bot": "dvol",
    "time": "09-18 08:00",
