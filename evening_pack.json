@@ -1,22 +1,22 @@
 {
- "generated_et": "2026-09-25 16:00:23",
+ "generated_et": "2026-09-25 20:00:24",
  "today": "2026-09-25",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-09-23 16:00",
-  "to_et": "2026-09-25 16:00"
+  "from_et": "2026-09-23 20:00",
+  "to_et": "2026-09-25 20:00"
  },
  "bots": {
   "dvol": {
    "today": {
-    "n": 22,
-    "wins": 11,
-    "win_pct": 50,
-    "gross": -86.13,
-    "fees": 11.49,
-    "net": -97.62,
-    "avg_entry": 62.3
+    "n": 23,
+    "wins": 12,
+    "win_pct": 52,
+    "gross": -76.85,
+    "fees": 11.94,
+    "net": -88.79,
+    "avg_entry": 62.5
    },
    "losses": [
     {
@@ -120,13 +120,13 @@
     }
    ],
    "last48h": {
-    "n": 44,
-    "wins": 26,
-    "win_pct": 59,
-    "gross": -52.38,
-    "fees": 22.56,
-    "net": -74.94,
-    "avg_entry": 63.0
+    "n": 45,
+    "wins": 27,
+    "win_pct": 60,
+    "gross": -43.1,
+    "fees": 23.01,
+    "net": -66.11,
+    "avg_entry": 63.1
    },
    "losses_48h": [
     {
@@ -484,13 +484,13 @@
      "cum_net": -122.93
     },
     {
-     "n": 22,
-     "wins": 11,
-     "win_pct": 50,
-     "gross": -86.13,
-     "fees": 11.49,
-     "net": -97.62,
-     "avg_entry": 62.3,
+     "n": 23,
+     "wins": 12,
+     "win_pct": 52,
+     "gross": -76.85,
+     "fees": 11.94,
+     "net": -88.79,
+     "avg_entry": 62.5,
      "date": "2026-09-25",
      "mistake_mix": {
       "NONE": 3,
@@ -499,11 +499,11 @@
       "CHEAP": 3,
       "AGAINST": 1
      },
-     "cum_net": -220.55
+     "cum_net": -211.72
     }
    ],
-   "alltime_net": -412.51,
-   "alltime_n": 1409
+   "alltime_net": -403.68,
+   "alltime_n": 1410
   },
   "dvol2": {
    "today": {
@@ -1881,11 +1881,11 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.278,
-  "eth_last": 2694.85,
+  "today_realized_vol_15m_pct": 0.255,
+  "eth_last": 2690.79,
   "dvol": {
-   "now": 48.3,
-   "lo": 48.3,
+   "now": 48.0,
+   "lo": 48.0,
    "hi": 57.2
   },
   "funding": {
@@ -1910,18 +1910,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-09-25 16:00:22",
+   "updated_et": "2026-09-25 20:00:23",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2694.78,
-   "dvol": 48.3,
+   "eth_price": 2690.87,
+   "dvol": 48.0,
    "vol_regime": "NORMAL",
    "balance": 1.11,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0732,
+   "momentum_60s": -0.0208,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1942,10 +1942,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 6.3,
+   "conf_std": 3.4,
    "conf_flips": 0,
-   "conf_range": 26.8,
-   "conf_warn": true
+   "conf_range": 16.0,
+   "conf_warn": false
   }
  },
  "event_gate": {
@@ -1954,7 +1954,7 @@
   "decision": "NO_GO",
   "for_date": "2026-09-25",
   "reason": "no scheduled event",
-  "age_hours": 19.34,
+  "age_hours": 23.34,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -2612,6 +2612,14 @@
    "entry": 63.0,
    "net": -20.04,
    "code": "AGAINST"
+  },
+  {
+   "bot": "dvol",
+   "time": "09-25 15:45",
+   "side": "yes",
+   "entry": 68.0,
+   "net": 8.83,
+   "code": null
   }
  ],
  "backfilled": {
@@ -2690,7 +2698,7 @@
   },
   {
    "date": "2026-09-25",
-   "net": -190.61
+   "net": -181.78
   }
  ],
  "note": "pnl already NET of fees. loss codes: AGAINST/WITHDR/CHEAP/RICH/PIN/CLUSTER/NONE. PUBLISHED 4x/day (08,12,16,20 ET). today=partial calendar day so far; last48h/losses_48h=rolling 48-hour window; trades_48h=EVERY settled trade fleet-wide in that window w/ exact ET entry time (code null=win) \u2014 the source of truth for scoring skip windows: sum net over rows inside the window; history=14d w/ cum_net. dvol2live is REAL MONEY ($10/trade, exact-dvol logic): it appears in bots{} and live{} but is EXCLUDED from fleet_daily and all fleet aggregates - never merge it into the paper record."
