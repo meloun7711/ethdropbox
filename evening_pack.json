@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-05 16:00:11",
+ "generated_et": "2026-10-05 20:00:11",
  "today": "2026-10-05",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-03 16:00",
-  "to_et": "2026-10-05 16:00"
+  "from_et": "2026-10-03 20:00",
+  "to_et": "2026-10-05 20:00"
  },
  "bots": {
   "dvol": {
@@ -1067,15 +1067,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.172,
-  "eth_last": 2708.72,
+  "today_realized_vol_15m_pct": 0.158,
+  "eth_last": 2710.1,
   "dvol": {
-   "now": 48.5,
+   "now": 48.4,
    "lo": 47.6,
    "hi": 53.5
   },
   "funding": {
-   "funding_8h": 2.3e-05,
+   "funding_8h": 1e-05,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1096,29 +1096,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-05 16:00:11",
+   "updated_et": "2026-10-05 20:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2708.55,
-   "dvol": 48.5,
+   "eth_price": 2709.98,
+   "dvol": 48.4,
    "vol_regime": "NORMAL",
    "balance": 1.11,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0284,
+   "momentum_60s": -0.042,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": 54.8,
-   "model_side": "no",
-   "model_p_yes": 45.2,
-   "signal_secs_left": 888,
-   "signal_tradeable": false,
-   "signal_move_pct": -0.004,
-   "signal_ticker": "KXETH15M-26OCT051615-15",
+   "model_conf": null,
+   "model_side": null,
+   "model_p_yes": null,
+   "signal_secs_left": null,
+   "signal_tradeable": null,
+   "signal_move_pct": null,
+   "signal_ticker": null,
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1128,9 +1128,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.0,
+   "conf_std": 2.4,
    "conf_flips": 0,
-   "conf_range": 0.0,
+   "conf_range": 8.0,
    "conf_warn": false
   }
  },
@@ -1140,7 +1140,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-05",
   "reason": "no scheduled event",
-  "age_hours": 19.33,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
