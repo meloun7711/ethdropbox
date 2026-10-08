@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-07 16:00:11",
+ "generated_et": "2026-10-07 20:00:11",
  "today": "2026-10-07",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-05 16:00",
-  "to_et": "2026-10-07 16:00"
+  "from_et": "2026-10-05 20:00",
+  "to_et": "2026-10-07 20:00"
  },
  "bots": {
   "dvol": {
@@ -1016,15 +1016,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.195,
-  "eth_last": 2569.36,
+  "today_realized_vol_15m_pct": 0.184,
+  "eth_last": 2572.8,
   "dvol": {
-   "now": 47.5,
+   "now": 48.0,
    "lo": 46.9,
    "hi": 52.3
   },
   "funding": {
-   "funding_8h": -6e-06,
+   "funding_8h": 1e-06,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1045,29 +1045,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-07 16:00:10",
+   "updated_et": "2026-10-07 20:00:10",
    "instance": "live",
-   "event_gate": "GO",
-   "event_gate_why": "GO \u2014 policy: FOMC Minutes - Sep 15-16 meeting \u00b7 window 13:30-17:00",
+   "event_gate": "NO_GO",
+   "event_gate_why": "outside trade window 13:30-17:00 (now 19:59 ET)",
    "event_gate_enabled": true,
-   "eth_price": 2564.9,
-   "dvol": 47.5,
+   "eth_price": 2572.58,
+   "dvol": 48.0,
    "vol_regime": "NORMAL",
    "balance": 1.11,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0,
+   "momentum_60s": -0.0451,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": 69.4,
-   "model_side": "no",
-   "model_p_yes": 30.6,
-   "signal_secs_left": 889,
-   "signal_tradeable": false,
-   "signal_move_pct": -0.14,
-   "signal_ticker": "KXETH15M-26OCT071615-15",
+   "model_conf": null,
+   "model_side": null,
+   "model_p_yes": null,
+   "signal_secs_left": null,
+   "signal_tradeable": null,
+   "signal_move_pct": null,
+   "signal_ticker": null,
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1077,10 +1077,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.0,
-   "conf_flips": 0,
-   "conf_range": 0.0,
-   "conf_warn": false
+   "conf_std": 6.0,
+   "conf_flips": 1,
+   "conf_range": 18.4,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1089,7 +1089,7 @@
   "decision": "GO",
   "for_date": "2026-10-07",
   "reason": "policy: FOMC Minutes - Sep 15-16 meeting",
-  "age_hours": 19.33,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
