@@ -1,52 +1,24 @@
 {
- "generated_et": "2026-10-09 20:00:11",
- "today": "2026-10-09",
+ "generated_et": "2026-10-10 08:00:10",
+ "today": "2026-10-10",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-07 20:00",
-  "to_et": "2026-10-09 20:00"
+  "from_et": "2026-10-08 08:00",
+  "to_et": "2026-10-10 08:00"
  },
  "bots": {
   "dvol": {
    "today": {
-    "n": 10,
-    "wins": 7,
-    "win_pct": 70,
-    "gross": 19.66,
-    "fees": 5.02,
-    "net": 14.64,
-    "avg_entry": 63.7
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:15",
-     "ticker": "KXETH15M-26OCT090830-30",
-     "side": "yes",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26OCT091015-15",
-     "side": "no",
-     "entry": 64.0,
-     "net": -20.34,
-     "pers8": 2,
-     "code": "PIN"
-    },
-    {
-     "time": "10:30",
-     "ticker": "KXETH15M-26OCT091045-45",
-     "side": "yes",
-     "entry": 66.0,
-     "net": -20.28,
-     "pers8": 4,
-     "code": "WITHDR"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 39,
     "wins": 21,
@@ -306,10 +278,10 @@
      "avg_entry": 62.4,
      "date": "2026-10-02",
      "mistake_mix": {
-      "WITHDR": 3,
-      "NONE": 2,
+      "NONE": 4,
       "PIN": 2,
       "CLUSTER": 1,
+      "WITHDR": 1,
       "AGAINST": 1
      },
      "cum_net": 11.28
@@ -411,43 +383,15 @@
   },
   "dvol2": {
    "today": {
-    "n": 7,
-    "wins": 4,
-    "win_pct": 57,
-    "gross": -15.49,
-    "fees": 3.52,
-    "net": -19.01,
-    "avg_entry": 63.7
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:15",
-     "ticker": "KXETH15M-26OCT090830-30",
-     "side": "yes",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26OCT091015-15",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 2,
-     "code": "PIN"
-    },
-    {
-     "time": "10:30",
-     "ticker": "KXETH15M-26OCT091045-45",
-     "side": "yes",
-     "entry": 66.0,
-     "net": -20.28,
-     "pers8": 4,
-     "code": "WITHDR"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 21,
     "wins": 11,
@@ -741,34 +685,15 @@
   },
   "dvol63": {
    "today": {
-    "n": 6,
-    "wins": 4,
-    "win_pct": 67,
-    "gross": 10.79,
-    "fees": 3.23,
-    "net": 7.56,
-    "avg_entry": 61.3
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:15",
-     "ticker": "KXETH15M-26OCT090830-30",
-     "side": "yes",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26OCT091015-15",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 2,
-     "code": "PIN"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 28,
     "wins": 14,
@@ -992,8 +917,8 @@
      "avg_entry": 60.1,
      "date": "2026-10-02",
      "mistake_mix": {
-      "WITHDR": 3,
-      "NONE": 1,
+      "NONE": 3,
+      "WITHDR": 1,
       "AGAINST": 1
      },
      "cum_net": -62.61
@@ -1095,34 +1020,15 @@
   },
   "dvol6358": {
    "today": {
-    "n": 6,
-    "wins": 4,
-    "win_pct": 67,
-    "gross": 8.22,
-    "fees": 3.16,
-    "net": 5.06,
-    "avg_entry": 62.0
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:15",
-     "ticker": "KXETH15M-26OCT090830-30",
-     "side": "yes",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26OCT091015-15",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 2,
-     "code": "PIN"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 27,
     "wins": 14,
@@ -1335,8 +1241,8 @@
      "avg_entry": 60.6,
      "date": "2026-10-02",
      "mistake_mix": {
-      "WITHDR": 3,
-      "NONE": 1,
+      "NONE": 3,
+      "WITHDR": 1,
       "AGAINST": 1
      },
      "cum_net": 26.39
@@ -1461,20 +1367,20 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.142,
-  "eth_last": 2485.23,
+  "today_realized_vol_15m_pct": 0.071,
+  "eth_last": 2494.9,
   "dvol": {
-   "now": 49.2,
+   "now": 49.4,
    "lo": 46.9,
    "hi": 51.8
   },
   "funding": {
-   "funding_8h": 2.7e-05,
-   "current_funding": 7e-06,
+   "funding_8h": 4.9e-05,
+   "current_funding": 0.000103,
    "source": "deribit ETH-PERPETUAL ticker"
   },
-  "dow_tomorrow": "Saturday",
-  "session_close_et": "2026-10-09 20:00"
+  "dow_tomorrow": "Sunday",
+  "session_close_et": "2026-10-10 20:00"
  },
  "live": {
   "bot": "dvol2live",
@@ -1490,18 +1396,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-09 20:00:10",
+   "updated_et": "2026-10-10 08:00:09",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2485.58,
-   "dvol": 49.2,
+   "eth_price": 2494.9,
+   "dvol": 49.4,
    "vol_regime": "NORMAL",
    "balance": 1.11,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0137,
+   "momentum_60s": 0.004,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1522,9 +1428,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 2.5,
+   "conf_std": 2.4,
    "conf_flips": 0,
-   "conf_range": 8.6,
+   "conf_range": 9.5,
    "conf_warn": false
   }
  },
@@ -1532,9 +1438,9 @@
   "file": "/home/ubuntu/event_gate.json",
   "present": true,
   "decision": "NO_GO",
-  "for_date": "2026-10-09",
+  "for_date": "2026-10-10",
   "reason": "no scheduled event",
-  "age_hours": 23.33,
+  "age_hours": 11.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1549,8 +1455,8 @@
   "calendar_go": false,
   "routine_veto": false,
   "veto_reason": null,
-  "veto_channel": "stale (234667.7h > 12.0h)",
-  "veto_age_hours": 234667.67,
+  "veto_channel": "stale (234691.7h > 12.0h)",
+  "veto_age_hours": 234691.67,
   "upcoming_go_days": [
    {
     "date": "2026-10-14",
