@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-12 12:00:11",
+ "generated_et": "2026-10-12 16:00:11",
  "today": "2026-10-12",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-10 12:00",
-  "to_et": "2026-10-12 12:00"
+  "from_et": "2026-10-10 16:00",
+  "to_et": "2026-10-12 16:00"
  },
  "bots": {
   "dvol": {
@@ -1029,16 +1029,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.197,
-  "eth_last": 2527.54,
+  "today_realized_vol_15m_pct": 0.201,
+  "eth_last": 2518.99,
   "dvol": {
-   "now": 51.2,
+   "now": 51.0,
    "lo": 46.9,
    "hi": 51.8
   },
   "funding": {
-   "funding_8h": 4.2e-05,
-   "current_funding": 5.1e-05,
+   "funding_8h": 3e-05,
+   "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Tuesday",
@@ -1058,29 +1058,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-12 12:00:10",
+   "updated_et": "2026-10-12 16:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2562.08,
-   "dvol": 51.2,
+   "eth_price": 2518.99,
+   "dvol": 51.0,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0,
+   "momentum_60s": 0.0401,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": null,
-   "model_side": null,
-   "model_p_yes": null,
-   "signal_secs_left": null,
-   "signal_tradeable": null,
-   "signal_move_pct": null,
-   "signal_ticker": null,
+   "model_conf": 58.2,
+   "model_side": "yes",
+   "model_p_yes": 58.2,
+   "signal_secs_left": 889,
+   "signal_tradeable": false,
+   "signal_move_pct": 0.02,
+   "signal_ticker": "KXETH15M-26OCT121615-15",
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1102,7 +1102,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-12",
   "reason": "no scheduled event",
-  "age_hours": 15.33,
+  "age_hours": 19.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
