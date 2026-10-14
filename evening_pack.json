@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-13 16:00:11",
+ "generated_et": "2026-10-13 20:00:11",
  "today": "2026-10-13",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-11 16:00",
-  "to_et": "2026-10-13 16:00"
+  "from_et": "2026-10-11 20:00",
+  "to_et": "2026-10-13 20:00"
  },
  "bots": {
   "dvol": {
@@ -635,24 +635,15 @@
     }
    ],
    "last48h": {
-    "n": 19,
+    "n": 18,
     "wins": 10,
-    "win_pct": 53,
-    "gross": -41.88,
-    "fees": 10.01,
-    "net": -51.89,
+    "win_pct": 56,
+    "gross": -22.08,
+    "fees": 9.45,
+    "net": -31.53,
     "avg_entry": 61.3
    },
    "losses_48h": [
-    {
-     "time": "10-11 17:30",
-     "ticker": "KXETH15M-26OCT111745-45",
-     "side": "no",
-     "entry": 60.0,
-     "net": -20.36,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
     {
      "time": "10-12 09:46",
      "ticker": "KXETH15M-26OCT121000-00",
@@ -982,24 +973,15 @@
     }
    ],
    "last48h": {
-    "n": 14,
+    "n": 13,
     "wins": 8,
-    "win_pct": 57,
-    "gross": -15.37,
-    "fees": 7.66,
-    "net": -23.03,
-    "avg_entry": 60.6
+    "win_pct": 62,
+    "gross": 4.43,
+    "fees": 7.1,
+    "net": -2.67,
+    "avg_entry": 60.7
    },
    "losses_48h": [
-    {
-     "time": "10-11 17:30",
-     "ticker": "KXETH15M-26OCT111745-45",
-     "side": "no",
-     "entry": 60.0,
-     "net": -20.36,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
     {
      "time": "10-13 08:30",
      "ticker": "KXETH15M-26OCT130845-45",
@@ -1267,16 +1249,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.214,
-  "eth_last": 2505.24,
+  "today_realized_vol_15m_pct": 0.2,
+  "eth_last": 2495.83,
   "dvol": {
-   "now": 51.4,
+   "now": 51.5,
    "lo": 46.9,
    "hi": 52.0
   },
   "funding": {
-   "funding_8h": 2.1e-05,
-   "current_funding": 0.0,
+   "funding_8h": 9e-06,
+   "current_funding": 8.2e-05,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Wednesday",
@@ -1296,29 +1278,29 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-13 16:00:11",
+   "updated_et": "2026-10-13 20:00:09",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2504.89,
-   "dvol": 51.4,
+   "eth_price": 2496.28,
+   "dvol": 51.5,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0375,
+   "momentum_60s": -0.0108,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
    "daily_pnl": 0.0,
-   "model_conf": null,
-   "model_side": null,
-   "model_p_yes": null,
-   "signal_secs_left": null,
-   "signal_tradeable": null,
-   "signal_move_pct": null,
-   "signal_ticker": null,
+   "model_conf": 51.6,
+   "model_side": "yes",
+   "model_p_yes": 51.6,
+   "signal_secs_left": 890,
+   "signal_tradeable": false,
+   "signal_move_pct": 0.023,
+   "signal_ticker": "KXETH15M-26OCT132015-15",
    "min_conf": 70.0,
    "chop_enabled": false,
    "eth_flips": 0,
@@ -1328,10 +1310,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 4.5,
+   "conf_std": 0.0,
    "conf_flips": 0,
-   "conf_range": 15.8,
-   "conf_warn": true
+   "conf_range": 0.0,
+   "conf_warn": false
   }
  },
  "event_gate": {
@@ -1340,7 +1322,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-13",
   "reason": "no scheduled event",
-  "age_hours": 19.33,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
