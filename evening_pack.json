@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-24 12:00:11",
+ "generated_et": "2026-10-24 16:00:10",
  "today": "2026-10-24",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-22 12:00",
-  "to_et": "2026-10-24 12:00"
+  "from_et": "2026-10-22 16:00",
+  "to_et": "2026-10-24 16:00"
  },
  "bots": {
   "dvol": {
@@ -30,42 +30,15 @@
     }
    ],
    "last48h": {
-    "n": 29,
-    "wins": 21,
-    "win_pct": 72,
-    "gross": 80.88,
-    "fees": 14.63,
-    "net": 66.25,
-    "avg_entry": 63.8
+    "n": 22,
+    "wins": 17,
+    "win_pct": 77,
+    "gross": 94.81,
+    "fees": 11.15,
+    "net": 83.66,
+    "avg_entry": 63.6
    },
    "losses_48h": [
-    {
-     "time": "10-22 12:00",
-     "ticker": "KXETH15M-26OCT221215-15",
-     "side": "yes",
-     "entry": 68.0,
-     "net": -20.17,
-     "pers8": 3,
-     "code": "PIN"
-    },
-    {
-     "time": "10-22 12:15",
-     "ticker": "KXETH15M-26OCT221230-30",
-     "side": "yes",
-     "entry": 66.0,
-     "net": -20.28,
-     "pers8": 3,
-     "code": "CLUSTER"
-    },
-    {
-     "time": "10-22 14:15",
-     "ticker": "KXETH15M-26OCT221430-30",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 1,
-     "code": "NONE"
-    },
     {
      "time": "10-23 11:31",
      "ticker": "KXETH15M-26OCT231145-45",
@@ -344,24 +317,15 @@
     }
    ],
    "last48h": {
-    "n": 13,
-    "wins": 10,
-    "win_pct": 77,
-    "gross": 56.63,
-    "fees": 6.78,
-    "net": 49.85,
-    "avg_entry": 62.5
+    "n": 11,
+    "wins": 9,
+    "win_pct": 82,
+    "gross": 65.95,
+    "fees": 5.76,
+    "net": 60.19,
+    "avg_entry": 62.3
    },
    "losses_48h": [
-    {
-     "time": "10-22 14:15",
-     "ticker": "KXETH15M-26OCT221430-30",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 1,
-     "code": "NONE"
-    },
     {
      "time": "10-23 19:30",
      "ticker": "KXETH15M-26OCT231945-45",
@@ -637,33 +601,15 @@
     }
    ],
    "last48h": {
-    "n": 18,
-    "wins": 13,
-    "win_pct": 72,
-    "gross": 69.49,
-    "fees": 9.9,
-    "net": 59.59,
-    "avg_entry": 60.3
+    "n": 14,
+    "wins": 11,
+    "win_pct": 79,
+    "gross": 82.53,
+    "fees": 7.75,
+    "net": 74.78,
+    "avg_entry": 60.1
    },
    "losses_48h": [
-    {
-     "time": "10-22 12:00",
-     "ticker": "KXETH15M-26OCT221215-15",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 3,
-     "code": "PIN"
-    },
-    {
-     "time": "10-22 14:15",
-     "ticker": "KXETH15M-26OCT221430-30",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 1,
-     "code": "NONE"
-    },
     {
      "time": "10-23 11:17",
      "ticker": "KXETH15M-26OCT231130-30",
@@ -925,33 +871,15 @@
    },
    "losses": [],
    "last48h": {
-    "n": 17,
-    "wins": 13,
-    "win_pct": 76,
-    "gross": 86.98,
-    "fees": 9.21,
-    "net": 77.77,
-    "avg_entry": 60.9
+    "n": 13,
+    "wins": 11,
+    "win_pct": 85,
+    "gross": 98.97,
+    "fees": 7.04,
+    "net": 91.93,
+    "avg_entry": 61.0
    },
    "losses_48h": [
-    {
-     "time": "10-22 12:00",
-     "ticker": "KXETH15M-26OCT221215-15",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 3,
-     "code": "PIN"
-    },
-    {
-     "time": "10-22 14:15",
-     "ticker": "KXETH15M-26OCT221430-30",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 1,
-     "code": "NONE"
-    },
     {
      "time": "10-23 11:17",
      "ticker": "KXETH15M-26OCT231130-30",
@@ -1215,10 +1143,10 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.267,
-  "eth_last": 2301.54,
+  "today_realized_vol_15m_pct": 0.264,
+  "eth_last": 2336.45,
   "dvol": {
-   "now": 55.0,
+   "now": 54.3,
    "lo": 49.3,
    "hi": 55.0
   },
@@ -1244,18 +1172,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-24 12:00:09",
+   "updated_et": "2026-10-24 16:00:09",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2301.54,
-   "dvol": 55.0,
+   "eth_price": 2338.64,
+   "dvol": 54.3,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.1063,
+   "momentum_60s": 0.0702,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1276,9 +1204,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 0.0,
+   "conf_std": 2.2,
    "conf_flips": 0,
-   "conf_range": 0.0,
+   "conf_range": 8.8,
    "conf_warn": false
   }
  },
@@ -1288,7 +1216,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-24",
   "reason": "no scheduled event",
-  "age_hours": 15.33,
+  "age_hours": 19.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1339,78 +1267,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol",
-   "time": "10-22 12:00",
-   "side": "yes",
-   "entry": 68.0,
-   "net": -20.17,
-   "code": "PIN"
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 12:15",
-   "side": "yes",
-   "entry": 66.0,
-   "net": -20.28,
-   "code": "CLUSTER"
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 12:45",
-   "side": "no",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 13:01",
-   "side": "no",
-   "entry": 59.0,
-   "net": 12.97,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 13:30",
-   "side": "no",
-   "entry": 65.0,
-   "net": 10.35,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 14:02",
-   "side": "no",
-   "entry": 67.0,
-   "net": 9.12,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-22 14:02",
-   "side": "no",
-   "entry": 66.0,
-   "net": 9.72,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-22 14:15",
-   "side": "no",
-   "entry": 61.0,
-   "net": -20.06,
-   "code": "NONE"
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-22 14:15",
-   "side": "no",
-   "entry": 61.0,
-   "net": -20.06,
-   "code": "NONE"
-  },
   {
    "bot": "dvol",
    "time": "10-22 18:30",
