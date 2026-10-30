@@ -1,32 +1,78 @@
 {
- "generated_et": "2026-10-30 08:00:11",
+ "generated_et": "2026-10-30 12:00:12",
  "today": "2026-10-30",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-28 08:00",
-  "to_et": "2026-10-30 08:00"
+  "from_et": "2026-10-28 12:00",
+  "to_et": "2026-10-30 12:00"
  },
  "bots": {
   "dvol": {
    "today": {
-    "n": 0,
-    "wins": 0,
-    "win_pct": 0,
-    "gross": 0,
-    "fees": 0,
-    "net": 0,
-    "avg_entry": 0
-   },
-   "losses": [],
-   "last48h": {
-    "n": 22,
-    "wins": 14,
+    "n": 14,
+    "wins": 9,
     "win_pct": 64,
-    "gross": 2.53,
-    "fees": 11.27,
-    "net": -8.74,
-    "avg_entry": 63.1
+    "gross": 8.45,
+    "fees": 7.34,
+    "net": 1.11,
+    "avg_entry": 62.1
+   },
+   "losses": [
+    {
+     "time": "08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 64.0,
+     "net": -20.34,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 3,
+     "code": "CHEAP"
+    },
+    {
+     "time": "11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
+    }
+   ],
+   "last48h": {
+    "n": 29,
+    "wins": 16,
+    "win_pct": 55,
+    "gross": -68.8,
+    "fees": 15.05,
+    "net": -83.85,
+    "avg_entry": 62.6
    },
    "losses_48h": [
     {
@@ -100,6 +146,51 @@
      "net": -20.36,
      "pers8": 3,
      "code": "PIN"
+    },
+    {
+     "time": "10-30 08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 64.0,
+     "net": -20.34,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "10-30 09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10-30 10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10-30 10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 3,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10-30 11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
     }
    ],
    "history": [
@@ -189,11 +280,9 @@
      "avg_entry": 64.0,
      "date": "2026-10-22",
      "mistake_mix": {
-      "NONE": 3,
-      "PIN": 2,
-      "WITHDR": 1,
-      "AGAINST": 1,
-      "CLUSTER": 2
+      "NONE": 4,
+      "CLUSTER": 4,
+      "PIN": 1
      },
      "cum_net": -67.69
     },
@@ -301,30 +390,57 @@
       "PIN": 1
      },
      "cum_net": -81.04
+    },
+    {
+     "n": 14,
+     "wins": 9,
+     "win_pct": 64,
+     "gross": 8.45,
+     "fees": 7.34,
+     "net": 1.11,
+     "avg_entry": 62.1,
+     "date": "2026-10-30",
+     "mistake_mix": {
+      "AGAINST": 1,
+      "CHEAP": 2,
+      "NONE": 1,
+      "WITHDR": 1
+     },
+     "cum_net": -79.93
     }
    ],
-   "alltime_net": -593.11,
-   "alltime_n": 1842
+   "alltime_net": -592.0,
+   "alltime_n": 1856
   },
   "dvol2": {
    "today": {
-    "n": 0,
-    "wins": 0,
-    "win_pct": 0,
-    "gross": 0,
-    "fees": 0,
-    "net": 0,
-    "avg_entry": 0
+    "n": 3,
+    "wins": 2,
+    "win_pct": 67,
+    "gross": 5.16,
+    "fees": 1.57,
+    "net": 3.59,
+    "avg_entry": 62.0
    },
-   "losses": [],
+   "losses": [
+    {
+     "time": "11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
+    }
+   ],
    "last48h": {
-    "n": 16,
-    "wins": 11,
-    "win_pct": 69,
-    "gross": 26.1,
-    "fees": 8.33,
-    "net": 17.77,
-    "avg_entry": 62.6
+    "n": 13,
+    "wins": 7,
+    "win_pct": 54,
+    "gross": -37.05,
+    "fees": 6.85,
+    "net": -43.9,
+    "avg_entry": 62.1
    },
    "losses_48h": [
     {
@@ -371,6 +487,15 @@
      "net": -20.43,
      "pers8": 5,
      "code": "AGAINST"
+    },
+    {
+     "time": "10-30 11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
     }
    ],
    "history": [
@@ -443,9 +568,8 @@
      "date": "2026-10-22",
      "mistake_mix": {
       "CHEAP": 1,
-      "WITHDR": 1,
-      "AGAINST": 1,
-      "NONE": 1
+      "NONE": 2,
+      "CLUSTER": 1
      },
      "cum_net": -72.28
     },
@@ -548,10 +672,24 @@
       "AGAINST": 1
      },
      "cum_net": -56.75
+    },
+    {
+     "n": 3,
+     "wins": 2,
+     "win_pct": 67,
+     "gross": 5.16,
+     "fees": 1.57,
+     "net": 3.59,
+     "avg_entry": 62.0,
+     "date": "2026-10-30",
+     "mistake_mix": {
+      "WITHDR": 1
+     },
+     "cum_net": -53.16
     }
    ],
-   "alltime_net": -298.45,
-   "alltime_n": 987
+   "alltime_net": -294.86,
+   "alltime_n": 990
   },
   "dvol2_1": {
    "today": {
@@ -605,23 +743,69 @@
   },
   "dvol63": {
    "today": {
-    "n": 0,
-    "wins": 0,
-    "win_pct": 0,
-    "gross": 0,
-    "fees": 0,
-    "net": 0,
-    "avg_entry": 0
+    "n": 11,
+    "wins": 6,
+    "win_pct": 55,
+    "gross": -23.95,
+    "fees": 5.81,
+    "net": -29.76,
+    "avg_entry": 60.4
    },
-   "losses": [],
+   "losses": [
+    {
+     "time": "08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 60.0,
+     "net": -20.36,
+     "pers8": 3,
+     "code": "CLUSTER"
+    },
+    {
+     "time": "11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
+    }
+   ],
    "last48h": {
-    "n": 13,
-    "wins": 9,
-    "win_pct": 69,
-    "gross": 25.07,
-    "fees": 6.67,
-    "net": 18.4,
-    "avg_entry": 61.6
+    "n": 19,
+    "wins": 10,
+    "win_pct": 53,
+    "gross": -57.61,
+    "fees": 9.89,
+    "net": -67.5,
+    "avg_entry": 60.6
    },
    "losses_48h": [
     {
@@ -659,6 +843,51 @@
      "net": -20.04,
      "pers8": 3,
      "code": "PIN"
+    },
+    {
+     "time": "10-30 08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "10-30 09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10-30 10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10-30 10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 60.0,
+     "net": -20.36,
+     "pers8": 3,
+     "code": "CLUSTER"
+    },
+    {
+     "time": "10-30 11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 63.0,
+     "net": -20.04,
+     "pers8": 5,
+     "code": "WITHDR"
     }
    ],
    "history": [
@@ -749,8 +978,7 @@
      "avg_entry": 61.4,
      "date": "2026-10-22",
      "mistake_mix": {
-      "NONE": 3,
-      "AGAINST": 1,
+      "NONE": 4,
       "CLUSTER": 1,
       "PIN": 1
      },
@@ -856,30 +1084,94 @@
       "PIN": 1
      },
      "cum_net": -63.82
+    },
+    {
+     "n": 11,
+     "wins": 6,
+     "win_pct": 55,
+     "gross": -23.95,
+     "fees": 5.81,
+     "net": -29.76,
+     "avg_entry": 60.4,
+     "date": "2026-10-30",
+     "mistake_mix": {
+      "AGAINST": 1,
+      "CHEAP": 1,
+      "NONE": 1,
+      "CLUSTER": 1,
+      "WITHDR": 1
+     },
+     "cum_net": -93.58
     }
    ],
-   "alltime_net": -411.69,
-   "alltime_n": 1082
+   "alltime_net": -441.45,
+   "alltime_n": 1093
   },
   "dvol6358": {
    "today": {
-    "n": 0,
-    "wins": 0,
-    "win_pct": 0,
-    "gross": 0,
-    "fees": 0,
-    "net": 0,
-    "avg_entry": 0
+    "n": 12,
+    "wins": 7,
+    "win_pct": 58,
+    "gross": -18.66,
+    "fees": 6.14,
+    "net": -24.8,
+    "avg_entry": 61.0
    },
-   "losses": [],
+   "losses": [
+    {
+     "time": "08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 60.0,
+     "net": -20.36,
+     "pers8": 3,
+     "code": "CLUSTER"
+    },
+    {
+     "time": "11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 5,
+     "code": "WITHDR"
+    }
+   ],
    "last48h": {
-    "n": 25,
-    "wins": 18,
-    "win_pct": 72,
-    "gross": 78.56,
-    "fees": 13.07,
-    "net": 65.49,
-    "avg_entry": 61.6
+    "n": 32,
+    "wins": 20,
+    "win_pct": 62,
+    "gross": 1.17,
+    "fees": 16.62,
+    "net": -15.45,
+    "avg_entry": 61.2
    },
    "losses_48h": [
     {
@@ -944,6 +1236,51 @@
      "net": -20.36,
      "pers8": 3,
      "code": "PIN"
+    },
+    {
+     "time": "10-30 08:00",
+     "ticker": "KXETH15M-26OCT300815-15",
+     "side": "no",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 4,
+     "code": "AGAINST"
+    },
+    {
+     "time": "10-30 09:46",
+     "ticker": "KXETH15M-26OCT301000-00",
+     "side": "no",
+     "entry": 59.0,
+     "net": -20.03,
+     "pers8": 2,
+     "code": "CHEAP"
+    },
+    {
+     "time": "10-30 10:17",
+     "ticker": "KXETH15M-26OCT301030-30",
+     "side": "no",
+     "entry": 61.0,
+     "net": -20.06,
+     "pers8": 2,
+     "code": "NONE"
+    },
+    {
+     "time": "10-30 10:31",
+     "ticker": "KXETH15M-26OCT301045-45",
+     "side": "no",
+     "entry": 60.0,
+     "net": -20.36,
+     "pers8": 3,
+     "code": "CLUSTER"
+    },
+    {
+     "time": "10-30 11:15",
+     "ticker": "KXETH15M-26OCT301130-30",
+     "side": "yes",
+     "entry": 62.0,
+     "net": -20.37,
+     "pers8": 5,
+     "code": "WITHDR"
     }
    ],
    "history": [
@@ -1033,9 +1370,8 @@
      "avg_entry": 61.4,
      "date": "2026-10-22",
      "mistake_mix": {
-      "NONE": 3,
-      "WITHDR": 1,
-      "AGAINST": 1,
+      "NONE": 4,
+      "CLUSTER": 1,
       "PIN": 1
      },
      "cum_net": -110.89
@@ -1141,10 +1477,28 @@
       "PIN": 1
      },
      "cum_net": -54.87
+    },
+    {
+     "n": 12,
+     "wins": 7,
+     "win_pct": 58,
+     "gross": -18.66,
+     "fees": 6.14,
+     "net": -24.8,
+     "avg_entry": 61.0,
+     "date": "2026-10-30",
+     "mistake_mix": {
+      "AGAINST": 1,
+      "CHEAP": 1,
+      "NONE": 1,
+      "CLUSTER": 1,
+      "WITHDR": 1
+     },
+     "cum_net": -79.67
     }
    ],
-   "alltime_net": -293.14,
-   "alltime_n": 1024
+   "alltime_net": -317.94,
+   "alltime_n": 1036
   },
   "dvol2live": {
    "today": {
@@ -1173,16 +1527,16 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.27,
-  "eth_last": 2233.4,
+  "today_realized_vol_15m_pct": 0.293,
+  "eth_last": 2222.77,
   "dvol": {
-   "now": 54.0,
+   "now": 55.1,
    "lo": 49.5,
    "hi": 61.2
   },
   "funding": {
-   "funding_8h": 1.5e-05,
-   "current_funding": 1.9e-05,
+   "funding_8h": 1.8e-05,
+   "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
   "dow_tomorrow": "Saturday",
@@ -1202,18 +1556,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-30 08:00:11",
+   "updated_et": "2026-10-30 12:00:11",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2232.36,
-   "dvol": 54.0,
+   "eth_price": 2222.82,
+   "dvol": 55.1,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0116,
+   "momentum_60s": -0.1254,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1234,10 +1588,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 1.3,
+   "conf_std": 8.6,
    "conf_flips": 0,
-   "conf_range": 5.4,
-   "conf_warn": false
+   "conf_range": 29.9,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1246,7 +1600,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-30",
   "reason": "no scheduled event",
-  "age_hours": 11.33,
+  "age_hours": 15.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1297,110 +1651,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol",
-   "time": "10-28 08:30",
-   "side": "no",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 08:30",
-   "side": "no",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 08:46",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 08:46",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 09:46",
-   "side": "no",
-   "entry": 66.0,
-   "net": 9.72,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 09:46",
-   "side": "no",
-   "entry": 66.0,
-   "net": 9.72,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 10:00",
-   "side": "no",
-   "entry": 63.0,
-   "net": 10.96,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 10:15",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 10:15",
-   "side": "no",
-   "entry": 62.0,
-   "net": 11.63,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 10:30",
-   "side": "yes",
-   "entry": 63.0,
-   "net": 10.96,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 10:30",
-   "side": "yes",
-   "entry": 63.0,
-   "net": 10.96,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "10-28 11:00",
-   "side": "yes",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "10-28 11:00",
-   "side": "yes",
-   "entry": 64.0,
-   "net": 10.66,
-   "code": null
-  },
   {
    "bot": "dvol",
    "time": "10-28 12:46",
@@ -1600,6 +1850,142 @@
    "entry": 55.0,
    "net": -20.43,
    "code": "AGAINST"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 08:00",
+   "side": "no",
+   "entry": 64.0,
+   "net": -20.34,
+   "code": "AGAINST"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 08:15",
+   "side": "no",
+   "entry": 60.0,
+   "net": 12.64,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 08:30",
+   "side": "no",
+   "entry": 65.0,
+   "net": 10.02,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 09:02",
+   "side": "no",
+   "entry": 65.0,
+   "net": 10.35,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 09:17",
+   "side": "no",
+   "entry": 65.0,
+   "net": 10.35,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 09:30",
+   "side": "no",
+   "entry": 62.0,
+   "net": 11.63,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 09:46",
+   "side": "no",
+   "entry": 59.0,
+   "net": -20.03,
+   "code": "CHEAP"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 10:01",
+   "side": "no",
+   "entry": 59.0,
+   "net": 12.97,
+   "code": null
+  },
+  {
+   "bot": "dvol2",
+   "time": "10-30 10:01",
+   "side": "no",
+   "entry": 59.0,
+   "net": 12.97,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 10:17",
+   "side": "no",
+   "entry": 61.0,
+   "net": -20.06,
+   "code": "NONE"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 10:31",
+   "side": "no",
+   "entry": 59.0,
+   "net": -20.03,
+   "code": "CHEAP"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 10:46",
+   "side": "yes",
+   "entry": 65.0,
+   "net": 10.02,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 11:00",
+   "side": "yes",
+   "entry": 59.0,
+   "net": 12.97,
+   "code": null
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 11:15",
+   "side": "yes",
+   "entry": 63.0,
+   "net": -20.04,
+   "code": "WITHDR"
+  },
+  {
+   "bot": "dvol2",
+   "time": "10-30 11:15",
+   "side": "yes",
+   "entry": 63.0,
+   "net": -20.04,
+   "code": "WITHDR"
+  },
+  {
+   "bot": "dvol",
+   "time": "10-30 11:30",
+   "side": "no",
+   "entry": 64.0,
+   "net": 10.66,
+   "code": null
+  },
+  {
+   "bot": "dvol2",
+   "time": "10-30 11:30",
+   "side": "no",
+   "entry": 64.0,
+   "net": 10.66,
+   "code": null
   }
  ],
  "backfilled": {
@@ -1614,12 +2000,12 @@
   "config_b": {
    "since": "2026-07-13",
    "dvol2_1_net": -168.14,
-   "dvol2_net": -442.89,
-   "twin_gap_cum": 274.75,
+   "dvol2_net": -439.3,
+   "twin_gap_cum": 271.16,
    "noise_floor_day_p90": 41
   },
   "loss_rules_validation": {
-   "forward_control_settles_since_0712": 770,
+   "forward_control_settles_since_0712": 773,
    "trigger_n": 120
   }
  },
@@ -1675,6 +2061,10 @@
   {
    "date": "2026-10-29",
    "net": -60.83
+  },
+  {
+   "date": "2026-10-30",
+   "net": 4.7
   }
  ],
  "note": "pnl already NET of fees. loss codes: AGAINST/WITHDR/CHEAP/RICH/PIN/CLUSTER/NONE. PUBLISHED 4x/day (08,12,16,20 ET). today=partial calendar day so far; last48h/losses_48h=rolling 48-hour window; trades_48h=EVERY settled trade fleet-wide in that window w/ exact ET entry time (code null=win) \u2014 the source of truth for scoring skip windows: sum net over rows inside the window; history=14d w/ cum_net. dvol2live is REAL MONEY ($10/trade, exact-dvol logic): it appears in bots{} and live{} but is EXCLUDED from fleet_daily and all fleet aggregates - never merge it into the paper record."
