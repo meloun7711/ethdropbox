@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-10-31 08:00:11",
+ "generated_et": "2026-10-31 12:00:11",
  "today": "2026-10-31",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-10-29 08:00",
-  "to_et": "2026-10-31 08:00"
+  "from_et": "2026-10-29 12:00",
+  "to_et": "2026-10-31 12:00"
  },
  "bots": {
   "dvol": {
@@ -926,33 +926,15 @@
    },
    "losses": [],
    "last48h": {
-    "n": 35,
-    "wins": 24,
-    "win_pct": 69,
-    "gross": 75.17,
-    "fees": 18.42,
-    "net": 56.75,
+    "n": 26,
+    "wins": 17,
+    "win_pct": 65,
+    "gross": 27.32,
+    "fees": 13.6,
+    "net": 13.72,
     "avg_entry": 61.3
    },
    "losses_48h": [
-    {
-     "time": "10-29 09:45",
-     "ticker": "KXETH15M-26OCT291000-00",
-     "side": "no",
-     "entry": 59.0,
-     "net": -20.03,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "10-29 10:01",
-     "ticker": "KXETH15M-26OCT291015-15",
-     "side": "no",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
     {
      "time": "10-29 13:31",
      "ticker": "KXETH15M-26OCT291345-45",
@@ -1264,15 +1246,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.084,
-  "eth_last": 2245.06,
+  "today_realized_vol_15m_pct": 0.099,
+  "eth_last": 2247.54,
   "dvol": {
-   "now": 55.0,
+   "now": 55.2,
    "lo": 49.5,
    "hi": 61.2
   },
   "funding": {
-   "funding_8h": -2.9e-05,
+   "funding_8h": -1e-05,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1293,18 +1275,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-10-31 08:00:11",
+   "updated_et": "2026-10-31 12:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2244.61,
-   "dvol": 55.0,
+   "eth_price": 2247.56,
+   "dvol": 55.2,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": -0.0236,
+   "momentum_60s": 0.0133,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1325,10 +1307,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 7.1,
+   "conf_std": 2.8,
    "conf_flips": 0,
-   "conf_range": 23.0,
-   "conf_warn": true
+   "conf_range": 9.9,
+   "conf_warn": false
   }
  },
  "event_gate": {
@@ -1337,7 +1319,7 @@
   "decision": "NO_GO",
   "for_date": "2026-10-31",
   "reason": "no scheduled event",
-  "age_hours": 11.33,
+  "age_hours": 15.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
