@@ -1,97 +1,24 @@
 {
- "generated_et": "2026-11-10 20:00:10",
- "today": "2026-11-10",
+ "generated_et": "2026-11-11 08:00:10",
+ "today": "2026-11-11",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-11-08 20:00",
-  "to_et": "2026-11-10 20:00"
+  "from_et": "2026-11-09 08:00",
+  "to_et": "2026-11-11 08:00"
  },
  "bots": {
   "dvol": {
    "today": {
-    "n": 17,
-    "wins": 9,
-    "win_pct": 53,
-    "gross": -46.54,
-    "fees": 9.21,
-    "net": -55.75,
-    "avg_entry": 61.3
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:46",
-     "ticker": "KXETH15M-26NOV100900-00",
-     "side": "yes",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:30",
-     "ticker": "KXETH15M-26NOV100945-45",
-     "side": "no",
-     "entry": 57.0,
-     "net": -20.56,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26NOV101000-00",
-     "side": "no",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26NOV101015-15",
-     "side": "yes",
-     "entry": 59.0,
-     "net": -20.64,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "11:15",
-     "ticker": "KXETH15M-26NOV101130-30",
-     "side": "yes",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "12:30",
-     "ticker": "KXETH15M-26NOV101245-45",
-     "side": "yes",
-     "entry": 64.0,
-     "net": -20.34,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "12:46",
-     "ticker": "KXETH15M-26NOV101300-00",
-     "side": "no",
-     "entry": 68.0,
-     "net": -20.17,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
-    {
-     "time": "13:46",
-     "ticker": "KXETH15M-26NOV101400-00",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 5,
-     "code": "AGAINST"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 34,
     "wins": 19,
@@ -240,22 +167,6 @@
    ],
    "history": [
     {
-     "n": 20,
-     "wins": 14,
-     "win_pct": 70,
-     "gross": 41.86,
-     "fees": 10.2,
-     "net": 31.66,
-     "avg_entry": 63.3,
-     "date": "2026-10-28",
-     "mistake_mix": {
-      "NONE": 3,
-      "CHEAP": 1,
-      "CLUSTER": 2
-     },
-     "cum_net": 31.66
-    },
-    {
      "n": 2,
      "wins": 0,
      "win_pct": 0,
@@ -268,7 +179,7 @@
       "NONE": 1,
       "CLUSTER": 1
      },
-     "cum_net": -8.74
+     "cum_net": -40.4
     },
     {
      "n": 25,
@@ -284,7 +195,7 @@
       "CHEAP": 2,
       "CLUSTER": 1
      },
-     "cum_net": 53.35
+     "cum_net": 21.69
     },
     {
      "n": 2,
@@ -298,7 +209,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 43.0
+     "cum_net": 11.34
     },
     {
      "n": 24,
@@ -313,7 +224,7 @@
       "NONE": 8,
       "CLUSTER": 1
      },
-     "cum_net": 27.58
+     "cum_net": -4.08
     },
     {
      "n": 15,
@@ -325,11 +236,13 @@
      "avg_entry": 64.5,
      "date": "2026-11-03",
      "mistake_mix": {
-      "WITHDR": 2,
-      "AGAINST": 3,
-      "NONE": 1
+      "NONE": 2,
+      "PIN": 1,
+      "CLUSTER": 1,
+      "CHEAP": 1,
+      "AGAINST": 1
      },
-     "cum_net": -5.18
+     "cum_net": -36.84
     },
     {
      "n": 17,
@@ -344,7 +257,7 @@
       "AGAINST": 2,
       "WITHDR": 2
      },
-     "cum_net": 56.81
+     "cum_net": 25.15
     },
     {
      "n": 41,
@@ -363,7 +276,7 @@
       "CHEAP": 5,
       "AGAINST": 1
      },
-     "cum_net": 5.73
+     "cum_net": -25.93
     },
     {
      "n": 18,
@@ -379,7 +292,7 @@
       "AGAINST": 5,
       "WITHDR": 2
      },
-     "cum_net": -45.38
+     "cum_net": -77.04
     },
     {
      "n": 1,
@@ -391,7 +304,7 @@
      "avg_entry": 65.0,
      "date": "2026-11-07",
      "mistake_mix": {},
-     "cum_net": -35.36
+     "cum_net": -67.02
     },
     {
      "n": 12,
@@ -407,7 +320,7 @@
       "PIN": 1,
       "WITHDR": 1
      },
-     "cum_net": -20.05
+     "cum_net": -51.71
     },
     {
      "n": 17,
@@ -422,7 +335,7 @@
       "AGAINST": 6,
       "PIN": 1
      },
-     "cum_net": -54.1
+     "cum_net": -85.76
     },
     {
      "n": 17,
@@ -438,7 +351,7 @@
       "AGAINST": 3,
       "WITHDR": 3
      },
-     "cum_net": -109.85
+     "cum_net": -141.51
     }
    ],
    "alltime_net": -694.22,
@@ -446,34 +359,15 @@
   },
   "dvol2": {
    "today": {
-    "n": 3,
-    "wins": 1,
-    "win_pct": 33,
-    "gross": -28.09,
-    "fees": 1.46,
-    "net": -29.55,
-    "avg_entry": 65.0
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "12:30",
-     "ticker": "KXETH15M-26NOV101245-45",
-     "side": "yes",
-     "entry": 64.0,
-     "net": -20.34,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "12:46",
-     "ticker": "KXETH15M-26NOV101300-00",
-     "side": "no",
-     "entry": 68.0,
-     "net": -20.17,
-     "pers8": 4,
-     "code": "AGAINST"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 7,
     "wins": 4,
@@ -514,22 +408,6 @@
    ],
    "history": [
     {
-     "n": 15,
-     "wins": 11,
-     "win_pct": 73,
-     "gross": 45.9,
-     "fees": 7.7,
-     "net": 38.2,
-     "avg_entry": 63.1,
-     "date": "2026-10-28",
-     "mistake_mix": {
-      "CHEAP": 1,
-      "NONE": 1,
-      "CLUSTER": 2
-     },
-     "cum_net": 38.2
-    },
-    {
      "n": 1,
      "wins": 0,
      "win_pct": 0,
@@ -541,7 +419,7 @@
      "mistake_mix": {
       "CHEAP": 1
      },
-     "cum_net": 17.77
+     "cum_net": -20.43
     },
     {
      "n": 14,
@@ -556,7 +434,7 @@
       "NONE": 2,
       "CLUSTER": 1
      },
-     "cum_net": 85.86
+     "cum_net": 47.66
     },
     {
      "n": 2,
@@ -570,7 +448,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 76.15
+     "cum_net": 37.95
     },
     {
      "n": 8,
@@ -584,7 +462,7 @@
      "mistake_mix": {
       "NONE": 3
      },
-     "cum_net": 71.0
+     "cum_net": 32.8
     },
     {
      "n": 6,
@@ -598,7 +476,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 99.7
+     "cum_net": 61.5
     },
     {
      "n": 15,
@@ -613,7 +491,7 @@
       "AGAINST": 2,
       "WITHDR": 2
      },
-     "cum_net": 145.5
+     "cum_net": 107.3
     },
     {
      "n": 21,
@@ -631,7 +509,7 @@
       "PIN": 1,
       "CLUSTER": 1
      },
-     "cum_net": 107.3
+     "cum_net": 69.1
     },
     {
      "n": 1,
@@ -643,7 +521,7 @@
      "avg_entry": 64.0,
      "date": "2026-11-07",
      "mistake_mix": {},
-     "cum_net": 117.96
+     "cum_net": 79.76
     },
     {
      "n": 12,
@@ -659,7 +537,7 @@
       "PIN": 1,
       "WITHDR": 1
      },
-     "cum_net": 132.63
+     "cum_net": 94.43
     },
     {
      "n": 4,
@@ -673,7 +551,7 @@
      "mistake_mix": {
       "AGAINST": 1
      },
-     "cum_net": 146.49
+     "cum_net": 108.29
     },
     {
      "n": 3,
@@ -688,7 +566,7 @@
       "WITHDR": 1,
       "AGAINST": 1
      },
-     "cum_net": 116.94
+     "cum_net": 78.74
     }
    ],
    "alltime_net": -199.28,
@@ -746,79 +624,15 @@
   },
   "dvol63": {
    "today": {
-    "n": 14,
-    "wins": 7,
-    "win_pct": 50,
-    "gross": -44.62,
-    "fees": 7.87,
-    "net": -52.49,
-    "avg_entry": 59.7
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:46",
-     "ticker": "KXETH15M-26NOV100900-00",
-     "side": "yes",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:30",
-     "ticker": "KXETH15M-26NOV100945-45",
-     "side": "no",
-     "entry": 55.0,
-     "net": -20.43,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26NOV101000-00",
-     "side": "no",
-     "entry": 59.0,
-     "net": -20.03,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26NOV101015-15",
-     "side": "yes",
-     "entry": 59.0,
-     "net": -20.64,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "11:15",
-     "ticker": "KXETH15M-26NOV101130-30",
-     "side": "yes",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "12:30",
-     "ticker": "KXETH15M-26NOV101245-45",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "13:46",
-     "ticker": "KXETH15M-26NOV101400-00",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 5,
-     "code": "AGAINST"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 25,
     "wins": 13,
@@ -940,22 +754,6 @@
    ],
    "history": [
     {
-     "n": 12,
-     "wins": 9,
-     "win_pct": 75,
-     "gross": 44.6,
-     "fees": 6.16,
-     "net": 38.44,
-     "avg_entry": 61.5,
-     "date": "2026-10-28",
-     "mistake_mix": {
-      "CHEAP": 1,
-      "NONE": 1,
-      "CLUSTER": 1
-     },
-     "cum_net": 38.44
-    },
-    {
      "n": 1,
      "wins": 0,
      "win_pct": 0,
@@ -967,7 +765,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 18.4
+     "cum_net": -20.04
     },
     {
      "n": 21,
@@ -983,7 +781,7 @@
       "CHEAP": 1,
       "CLUSTER": 2
      },
-     "cum_net": 44.69
+     "cum_net": 6.25
     },
     {
      "n": 1,
@@ -997,7 +795,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 24.32
+     "cum_net": -14.12
     },
     {
      "n": 16,
@@ -1011,7 +809,7 @@
      "mistake_mix": {
       "NONE": 5
      },
-     "cum_net": 43.54
+     "cum_net": 5.1
     },
     {
      "n": 9,
@@ -1023,10 +821,13 @@
      "avg_entry": 61.6,
      "date": "2026-11-03",
      "mistake_mix": {
-      "WITHDR": 2,
-      "AGAINST": 3
+      "NONE": 1,
+      "PIN": 1,
+      "CLUSTER": 1,
+      "CHEAP": 1,
+      "AGAINST": 1
      },
-     "cum_net": -11.83
+     "cum_net": -50.27
     },
     {
      "n": 11,
@@ -1041,7 +842,7 @@
       "AGAINST": 2,
       "WITHDR": 2
      },
-     "cum_net": -18.46
+     "cum_net": -56.9
     },
     {
      "n": 35,
@@ -1060,7 +861,7 @@
       "PIN": 1,
       "CLUSTER": 1
      },
-     "cum_net": 2.45
+     "cum_net": -35.99
     },
     {
      "n": 14,
@@ -1076,7 +877,7 @@
       "AGAINST": 5,
       "WITHDR": 2
      },
-     "cum_net": -85.89
+     "cum_net": -124.33
     },
     {
      "n": 10,
@@ -1091,7 +892,7 @@
       "NONE": 2,
       "WITHDR": 1
      },
-     "cum_net": -55.69
+     "cum_net": -94.13
     },
     {
      "n": 11,
@@ -1105,7 +906,7 @@
      "mistake_mix": {
       "AGAINST": 5
      },
-     "cum_net": -96.55
+     "cum_net": -134.99
     },
     {
      "n": 14,
@@ -1121,7 +922,7 @@
       "AGAINST": 2,
       "WITHDR": 3
      },
-     "cum_net": -149.04
+     "cum_net": -187.48
     }
    ],
    "alltime_net": -579.13,
@@ -1129,79 +930,15 @@
   },
   "dvol6358": {
    "today": {
-    "n": 14,
-    "wins": 7,
-    "win_pct": 50,
-    "gross": -46.56,
-    "fees": 7.73,
-    "net": -54.29,
-    "avg_entry": 60.2
+    "n": 0,
+    "wins": 0,
+    "win_pct": 0,
+    "gross": 0,
+    "fees": 0,
+    "net": 0,
+    "avg_entry": 0
    },
-   "losses": [
-    {
-     "time": "08:46",
-     "ticker": "KXETH15M-26NOV100900-00",
-     "side": "yes",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:30",
-     "ticker": "KXETH15M-26NOV100945-45",
-     "side": "no",
-     "entry": 59.0,
-     "net": -20.03,
-     "pers8": 3,
-     "code": "CHEAP"
-    },
-    {
-     "time": "09:45",
-     "ticker": "KXETH15M-26NOV101000-00",
-     "side": "no",
-     "entry": 59.0,
-     "net": -20.03,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
-    {
-     "time": "10:00",
-     "ticker": "KXETH15M-26NOV101015-15",
-     "side": "yes",
-     "entry": 59.0,
-     "net": -20.64,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "11:15",
-     "ticker": "KXETH15M-26NOV101130-30",
-     "side": "yes",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "12:30",
-     "ticker": "KXETH15M-26NOV101245-45",
-     "side": "yes",
-     "entry": 63.0,
-     "net": -20.04,
-     "pers8": 4,
-     "code": "WITHDR"
-    },
-    {
-     "time": "13:46",
-     "ticker": "KXETH15M-26NOV101400-00",
-     "side": "no",
-     "entry": 61.0,
-     "net": -20.06,
-     "pers8": 5,
-     "code": "AGAINST"
-    }
-   ],
+   "losses": [],
    "last48h": {
     "n": 25,
     "wins": 13,
@@ -1323,21 +1060,6 @@
    ],
    "history": [
     {
-     "n": 12,
-     "wins": 9,
-     "win_pct": 75,
-     "gross": 45.08,
-     "fees": 6.1,
-     "net": 38.98,
-     "avg_entry": 61.9,
-     "date": "2026-10-28",
-     "mistake_mix": {
-      "NONE": 2,
-      "CLUSTER": 1
-     },
-     "cum_net": 38.98
-    },
-    {
      "n": 13,
      "wins": 9,
      "win_pct": 69,
@@ -1351,7 +1073,7 @@
       "CLUSTER": 2,
       "NONE": 1
      },
-     "cum_net": 65.49
+     "cum_net": 26.51
     },
     {
      "n": 22,
@@ -1367,7 +1089,7 @@
       "CHEAP": 1,
       "CLUSTER": 2
      },
-     "cum_net": 95.73
+     "cum_net": 56.75
     },
     {
      "n": 1,
@@ -1381,7 +1103,7 @@
      "mistake_mix": {
       "NONE": 1
      },
-     "cum_net": 75.36
+     "cum_net": 36.38
     },
     {
      "n": 18,
@@ -1396,7 +1118,7 @@
       "NONE": 5,
       "CLUSTER": 1
      },
-     "cum_net": 94.03
+     "cum_net": 55.05
     },
     {
      "n": 12,
@@ -1408,10 +1130,13 @@
      "avg_entry": 62.0,
      "date": "2026-11-03",
      "mistake_mix": {
-      "WITHDR": 2,
-      "AGAINST": 3
+      "NONE": 1,
+      "PIN": 1,
+      "CLUSTER": 1,
+      "CHEAP": 1,
+      "AGAINST": 1
      },
-     "cum_net": 71.22
+     "cum_net": 32.24
     },
     {
      "n": 11,
@@ -1427,7 +1152,7 @@
       "CHEAP": 1,
       "AGAINST": 2
      },
-     "cum_net": 28.71
+     "cum_net": -10.27
     },
     {
      "n": 36,
@@ -1444,7 +1169,7 @@
       "CHEAP": 4,
       "AGAINST": 1
      },
-     "cum_net": 117.49
+     "cum_net": 78.51
     },
     {
      "n": 16,
@@ -1460,7 +1185,7 @@
       "AGAINST": 5,
       "WITHDR": 2
      },
-     "cum_net": 55.96
+     "cum_net": 16.98
     },
     {
      "n": 10,
@@ -1476,7 +1201,7 @@
       "CHEAP": 1,
       "WITHDR": 1
      },
-     "cum_net": 71.14
+     "cum_net": 32.16
     },
     {
      "n": 11,
@@ -1490,7 +1215,7 @@
      "mistake_mix": {
       "AGAINST": 5
      },
-     "cum_net": 29.97
+     "cum_net": -9.01
     },
     {
      "n": 14,
@@ -1506,7 +1231,7 @@
       "AGAINST": 2,
       "WITHDR": 3
      },
-     "cum_net": -24.32
+     "cum_net": -63.3
     }
    ],
    "alltime_net": -382.95,
@@ -1539,10 +1264,10 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.401,
-  "eth_last": 2047.19,
+  "today_realized_vol_15m_pct": 0.208,
+  "eth_last": 2051.42,
   "dvol": {
-   "now": 55.8,
+   "now": 56.3,
    "lo": 49.7,
    "hi": 61.2
   },
@@ -1551,8 +1276,8 @@
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
-  "dow_tomorrow": "Wednesday",
-  "session_close_et": "2026-11-10 20:00"
+  "dow_tomorrow": "Thursday",
+  "session_close_et": "2026-11-11 20:00"
  },
  "live": {
   "bot": "dvol2live",
@@ -1568,18 +1293,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-11-10 20:00:10",
+   "updated_et": "2026-11-11 08:00:09",
    "instance": "live",
    "event_gate": "NO_GO",
-   "event_gate_why": "outside trade window 08:00-11:30 (now 19:59 ET)",
+   "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 2047.06,
-   "dvol": 55.8,
+   "eth_price": 2050.6,
+   "dvol": 56.3,
    "vol_regime": "NORMAL",
    "balance": 0.02,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.0239,
+   "momentum_60s": -0.0385,
    "adap_mode": "NORMAL",
    "adap_size_mult": 1.0,
    "min_edge": 2,
@@ -1600,19 +1325,19 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 1.7,
+   "conf_std": 7.6,
    "conf_flips": 0,
-   "conf_range": 7.0,
-   "conf_warn": false
+   "conf_range": 23.3,
+   "conf_warn": true
   }
  },
  "event_gate": {
   "file": "/home/ubuntu/event_gate.json",
   "present": true,
-  "decision": "GO",
-  "for_date": "2026-11-10",
-  "reason": "top: CPI October - BLS",
-  "age_hours": 23.33,
+  "decision": "NO_GO",
+  "for_date": "2026-11-11",
+  "reason": "no scheduled event",
+  "age_hours": 11.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1623,22 +1348,12 @@
    "policy",
    "top"
   ],
-  "events": [
-   {
-    "date": "2026-11-10",
-    "time_et": "08:30",
-    "tier": "top",
-    "kind": "print",
-    "event": "CPI October - BLS",
-    "verified": true,
-    "source_url": "https://www.usinflationcalculator.com/inflation/consumer-price-index-release-schedule/"
-   }
-  ],
-  "calendar_go": true,
+  "events": [],
+  "calendar_go": false,
   "routine_veto": false,
   "veto_reason": null,
-  "veto_channel": "stale (235436.7h > 12.0h)",
-  "veto_age_hours": 235436.67,
+  "veto_channel": "stale (235460.7h > 12.0h)",
+  "veto_age_hours": 235460.67,
   "upcoming_go_days": [
    {
     "date": "2026-11-18",
@@ -2024,10 +1739,6 @@
   }
  },
  "fleet_daily": [
-  {
-   "date": "2026-10-28",
-   "net": 69.86
-  },
   {
    "date": "2026-10-29",
    "net": -60.83
