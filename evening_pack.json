@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-11-21 16:00:24",
+ "generated_et": "2026-11-21 20:00:10",
  "today": "2026-11-21",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-11-19 16:00",
-  "to_et": "2026-11-21 16:00"
+  "from_et": "2026-11-19 20:00",
+  "to_et": "2026-11-21 20:00"
  },
  "bots": {
   "dvol": {
@@ -48,33 +48,15 @@
     }
    ],
    "last48h": {
-    "n": 44,
-    "wins": 24,
-    "win_pct": 55,
-    "gross": -137.94,
-    "fees": 25.77,
-    "net": -163.71,
-    "avg_entry": 61.3
+    "n": 38,
+    "wins": 20,
+    "win_pct": 53,
+    "gross": -140.36,
+    "fees": 22.76,
+    "net": -163.12,
+    "avg_entry": 60.9
    },
    "losses_48h": [
-    {
-     "time": "11-19 17:00",
-     "ticker": "KXETH15M-26NOV191715-15",
-     "side": "no",
-     "entry": 56.0,
-     "net": -20.21,
-     "pers8": 1,
-     "code": "CHEAP"
-    },
-    {
-     "time": "11-19 18:46",
-     "ticker": "KXETH15M-26NOV191900-00",
-     "side": "no",
-     "entry": 64.0,
-     "net": -20.34,
-     "pers8": 4,
-     "code": "AGAINST"
-    },
     {
      "time": "11-20 08:30",
      "ticker": "KXETH15M-26NOV200845-45",
@@ -497,24 +479,15 @@
     }
    ],
    "last48h": {
-    "n": 15,
-    "wins": 10,
-    "win_pct": 67,
-    "gross": 23.03,
-    "fees": 8.35,
-    "net": 14.68,
-    "avg_entry": 61.7
+    "n": 10,
+    "wins": 6,
+    "win_pct": 60,
+    "gross": -3.1,
+    "fees": 5.73,
+    "net": -8.83,
+    "avg_entry": 61.5
    },
    "losses_48h": [
-    {
-     "time": "11-19 17:00",
-     "ticker": "KXETH15M-26NOV191715-15",
-     "side": "no",
-     "entry": 56.0,
-     "net": -20.21,
-     "pers8": 1,
-     "code": "CHEAP"
-    },
     {
      "time": "11-20 09:15",
      "ticker": "KXETH15M-26NOV200930-30",
@@ -848,24 +821,15 @@
     }
    ],
    "last48h": {
-    "n": 34,
-    "wins": 17,
-    "win_pct": 50,
-    "gross": -136.92,
-    "fees": 19.9,
-    "net": -156.82,
+    "n": 30,
+    "wins": 14,
+    "win_pct": 47,
+    "gross": -157.28,
+    "fees": 17.61,
+    "net": -174.89,
     "avg_entry": 59.4
    },
    "losses_48h": [
-    {
-     "time": "11-19 17:00",
-     "ticker": "KXETH15M-26NOV191715-15",
-     "side": "no",
-     "entry": 56.0,
-     "net": -20.21,
-     "pers8": 1,
-     "code": "CHEAP"
-    },
     {
      "time": "11-20 08:30",
      "ticker": "KXETH15M-26NOV200845-45",
@@ -1274,33 +1238,15 @@
     }
    ],
    "last48h": {
-    "n": 37,
-    "wins": 18,
-    "win_pct": 49,
-    "gross": -157.19,
-    "fees": 21.77,
-    "net": -178.96,
-    "avg_entry": 60.3
+    "n": 33,
+    "wins": 16,
+    "win_pct": 48,
+    "gross": -144.07,
+    "fees": 19.55,
+    "net": -163.62,
+    "avg_entry": 60.4
    },
    "losses_48h": [
-    {
-     "time": "11-19 17:00",
-     "ticker": "KXETH15M-26NOV191715-15",
-     "side": "no",
-     "entry": 58.0,
-     "net": -20.3,
-     "pers8": 1,
-     "code": "CHEAP"
-    },
-    {
-     "time": "11-19 17:31",
-     "ticker": "KXETH15M-26NOV191745-45",
-     "side": "no",
-     "entry": 62.0,
-     "net": -20.37,
-     "pers8": 3,
-     "code": "NONE"
-    },
     {
      "time": "11-20 08:30",
      "ticker": "KXETH15M-26NOV200845-45",
@@ -1708,15 +1654,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.495,
-  "eth_last": 1683.3,
+  "today_realized_vol_15m_pct": 0.447,
+  "eth_last": 1680.26,
   "dvol": {
-   "now": 71.3,
+   "now": 70.4,
    "lo": 54.4,
    "hi": 79.3
   },
   "funding": {
-   "funding_8h": 1e-06,
+   "funding_8h": 0.0,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1737,18 +1683,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-11-21 16:00:23",
+   "updated_et": "2026-11-21 20:00:10",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 no scheduled event",
    "event_gate_enabled": true,
-   "eth_price": 1683.31,
-   "dvol": 71.3,
+   "eth_price": 1680.26,
+   "dvol": 70.4,
    "vol_regime": "HIGH",
    "balance": 0.17,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.025,
+   "momentum_60s": -0.0315,
    "adap_mode": "HIGH",
    "adap_size_mult": 1.25,
    "min_edge": 1,
@@ -1769,10 +1715,10 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 3.3,
+   "conf_std": 5.8,
    "conf_flips": 0,
-   "conf_range": 10.1,
-   "conf_warn": false
+   "conf_range": 24.0,
+   "conf_warn": true
   }
  },
  "event_gate": {
@@ -1781,7 +1727,7 @@
   "decision": "NO_GO",
   "for_date": "2026-11-21",
   "reason": "no scheduled event",
-  "age_hours": 19.34,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1827,94 +1773,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol2",
-   "time": "11-19 16:02",
-   "side": "no",
-   "entry": 67.0,
-   "net": 9.12,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 16:02",
-   "side": "no",
-   "entry": 65.0,
-   "net": 10.02,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 16:15",
-   "side": "no",
-   "entry": 58.0,
-   "net": 13.7,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "11-19 16:15",
-   "side": "no",
-   "entry": 58.0,
-   "net": 13.7,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 16:30",
-   "side": "no",
-   "entry": 69.0,
-   "net": 8.26,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "11-19 16:30",
-   "side": "no",
-   "entry": 69.0,
-   "net": 8.26,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 17:00",
-   "side": "no",
-   "entry": 56.0,
-   "net": -20.21,
-   "code": "CHEAP"
-  },
-  {
-   "bot": "dvol2",
-   "time": "11-19 17:00",
-   "side": "no",
-   "entry": 56.0,
-   "net": -20.21,
-   "code": "CHEAP"
-  },
-  {
-   "bot": "dvol2",
-   "time": "11-19 18:00",
-   "side": "no",
-   "entry": 60.0,
-   "net": 12.64,
-   "code": null
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 18:46",
-   "side": "no",
-   "entry": 64.0,
-   "net": -20.34,
-   "code": "AGAINST"
-  },
-  {
-   "bot": "dvol",
-   "time": "11-19 19:31",
-   "side": "no",
-   "entry": 70.0,
-   "net": 7.98,
-   "code": null
-  },
   {
    "bot": "dvol",
    "time": "11-20 08:00",
