@@ -1,11 +1,11 @@
 {
- "generated_et": "2026-11-26 16:00:10",
+ "generated_et": "2026-11-26 20:00:10",
  "today": "2026-11-26",
  "schema": "evening_pack_v4",
  "publish_every_hours": 4,
  "window_48h": {
-  "from_et": "2026-11-24 16:00",
-  "to_et": "2026-11-26 16:00"
+  "from_et": "2026-11-24 20:00",
+  "to_et": "2026-11-26 20:00"
  },
  "bots": {
   "dvol": {
@@ -48,13 +48,13 @@
     }
    ],
    "last48h": {
-    "n": 28,
-    "wins": 16,
-    "win_pct": 57,
-    "gross": -63.99,
-    "fees": 18.12,
-    "net": -82.11,
-    "avg_entry": 62.7
+    "n": 27,
+    "wins": 15,
+    "win_pct": 56,
+    "gross": -81.21,
+    "fees": 17.4,
+    "net": -98.61,
+    "avg_entry": 62.8
    },
    "losses_48h": [
     {
@@ -426,13 +426,13 @@
     }
    ],
    "last48h": {
-    "n": 10,
-    "wins": 5,
-    "win_pct": 50,
-    "gross": -46.88,
-    "fees": 6.68,
-    "net": -53.56,
-    "avg_entry": 61.5
+    "n": 9,
+    "wins": 4,
+    "win_pct": 44,
+    "gross": -64.1,
+    "fees": 5.96,
+    "net": -70.06,
+    "avg_entry": 61.8
    },
    "losses_48h": [
     {
@@ -786,13 +786,13 @@
     }
    ],
    "last48h": {
-    "n": 23,
-    "wins": 12,
-    "win_pct": 52,
-    "gross": -84.19,
-    "fees": 14.97,
-    "net": -99.16,
-    "avg_entry": 61.4
+    "n": 22,
+    "wins": 11,
+    "win_pct": 50,
+    "gross": -101.41,
+    "fees": 14.25,
+    "net": -115.66,
+    "avg_entry": 61.5
    },
    "losses_48h": [
     {
@@ -1143,13 +1143,13 @@
     }
    ],
    "last48h": {
-    "n": 21,
-    "wins": 12,
-    "win_pct": 57,
-    "gross": -34.28,
-    "fees": 13.55,
-    "net": -47.83,
-    "avg_entry": 61.6
+    "n": 20,
+    "wins": 11,
+    "win_pct": 55,
+    "gross": -51.5,
+    "fees": 12.83,
+    "net": -64.33,
+    "avg_entry": 61.7
    },
    "losses_48h": [
     {
@@ -1470,15 +1470,15 @@
   }
  },
  "market": {
-  "today_realized_vol_15m_pct": 0.239,
-  "eth_last": 1702.25,
+  "today_realized_vol_15m_pct": 0.234,
+  "eth_last": 1698.74,
   "dvol": {
-   "now": 65.3,
+   "now": 65.7,
    "lo": 54.5,
    "hi": 79.3
   },
   "funding": {
-   "funding_8h": 0.0,
+   "funding_8h": 4e-06,
    "current_funding": 0.0,
    "source": "deribit ETH-PERPETUAL ticker"
   },
@@ -1499,18 +1499,18 @@
    "skip-gate scoring"
   ],
   "state": {
-   "updated_et": "2026-11-26 16:00:10",
+   "updated_et": "2026-11-26 20:00:09",
    "instance": "live",
    "event_gate": "NO_GO",
    "event_gate_why": "NO-GO \u2014 events present but none high-tier \u2014 holiday: Thanksgiving - NYSE FULLY CLOSED",
    "event_gate_enabled": true,
-   "eth_price": 1702.62,
-   "dvol": 65.3,
+   "eth_price": 1698.73,
+   "dvol": 65.7,
    "vol_regime": "HIGH",
    "balance": 0.17,
    "open_positions": 0,
    "n_trades": 0,
-   "momentum_60s": 0.04,
+   "momentum_60s": 0.0012,
    "adap_mode": "HIGH",
    "adap_size_mult": 1.25,
    "min_edge": 1,
@@ -1531,9 +1531,9 @@
    "chop_bars": 10,
    "choppy_now": false,
    "chop_skips": 0,
-   "conf_std": 3.2,
+   "conf_std": 2.2,
    "conf_flips": 0,
-   "conf_range": 12.4,
+   "conf_range": 9.6,
    "conf_warn": false
   }
  },
@@ -1543,7 +1543,7 @@
   "decision": "NO_GO",
   "for_date": "2026-11-26",
   "reason": "events present but none high-tier \u2014 holiday: Thanksgiving - NYSE FULLY CLOSED",
-  "age_hours": 19.33,
+  "age_hours": 23.33,
   "stale_for_today": false,
   "applies_to": [
    "dvol2live"
@@ -1584,22 +1584,6 @@
   ]
  },
  "trades_48h": [
-  {
-   "bot": "dvol",
-   "time": "11-24 19:15",
-   "side": "no",
-   "entry": 59.0,
-   "net": 16.5,
-   "code": null
-  },
-  {
-   "bot": "dvol2",
-   "time": "11-24 19:15",
-   "side": "no",
-   "entry": 59.0,
-   "net": 16.5,
-   "code": null
-  },
   {
    "bot": "dvol",
    "time": "11-25 08:00",
